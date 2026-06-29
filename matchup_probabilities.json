@@ -1,0 +1,3112 @@
+{
+  "teams": [
+    "Algeria",
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Bosnia and Herzegovina",
+    "Brazil",
+    "Canada",
+    "Cape Verde",
+    "Colombia",
+    "Croatia",
+    "DR Congo",
+    "Ecuador",
+    "Egypt",
+    "England",
+    "France",
+    "Germany",
+    "Ghana",
+    "Ivory Coast",
+    "Japan",
+    "Mexico",
+    "Morocco",
+    "Netherlands",
+    "Norway",
+    "Paraguay",
+    "Portugal",
+    "Senegal",
+    "South Africa",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "United States"
+  ],
+  "bracket_matchups": [
+    {
+      "home": "South Africa",
+      "away": "Canada",
+      "home_pct": 36.7,
+      "away_pct": 63.3
+    },
+    {
+      "home": "Brazil",
+      "away": "Japan",
+      "home_pct": 71.5,
+      "away_pct": 28.5
+    },
+    {
+      "home": "Germany",
+      "away": "Paraguay",
+      "home_pct": 73.1,
+      "away_pct": 26.9
+    },
+    {
+      "home": "Netherlands",
+      "away": "Morocco",
+      "home_pct": 65.2,
+      "away_pct": 34.8
+    },
+    {
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "home_pct": 43.4,
+      "away_pct": 56.6
+    },
+    {
+      "home": "France",
+      "away": "Sweden",
+      "home_pct": 84.5,
+      "away_pct": 15.5
+    },
+    {
+      "home": "Mexico",
+      "away": "Ecuador",
+      "home_pct": 56.8,
+      "away_pct": 43.2
+    },
+    {
+      "home": "England",
+      "away": "DR Congo",
+      "home_pct": 84.9,
+      "away_pct": 15.1
+    },
+    {
+      "home": "Belgium",
+      "away": "Senegal",
+      "home_pct": 69.0,
+      "away_pct": 31.0
+    },
+    {
+      "home": "United States",
+      "away": "Bosnia and Herzegovina",
+      "home_pct": 85.5,
+      "away_pct": 14.5
+    },
+    {
+      "home": "Spain",
+      "away": "Austria",
+      "home_pct": 81.6,
+      "away_pct": 18.4
+    },
+    {
+      "home": "Portugal",
+      "away": "Croatia",
+      "home_pct": 72.9,
+      "away_pct": 27.1
+    },
+    {
+      "home": "Switzerland",
+      "away": "Algeria",
+      "home_pct": 48.5,
+      "away_pct": 51.5
+    },
+    {
+      "home": "Australia",
+      "away": "Egypt",
+      "home_pct": 55.7,
+      "away_pct": 44.3
+    },
+    {
+      "home": "Argentina",
+      "away": "Cape Verde",
+      "home_pct": 91.8,
+      "away_pct": 8.2
+    },
+    {
+      "home": "Colombia",
+      "away": "Ghana",
+      "home_pct": 89.3,
+      "away_pct": 10.7
+    }
+  ],
+  "all_pairs": {
+    "Algeria|Argentina": {
+      "team_a": "Algeria",
+      "team_b": "Argentina",
+      "pct_a": 14.0,
+      "pct_b": 86.0
+    },
+    "Algeria|Australia": {
+      "team_a": "Algeria",
+      "team_b": "Australia",
+      "pct_a": 63.9,
+      "pct_b": 36.1
+    },
+    "Algeria|Austria": {
+      "team_a": "Algeria",
+      "team_b": "Austria",
+      "pct_a": 61.4,
+      "pct_b": 38.6
+    },
+    "Algeria|Belgium": {
+      "team_a": "Algeria",
+      "team_b": "Belgium",
+      "pct_a": 37.2,
+      "pct_b": 62.8
+    },
+    "Algeria|Bosnia and Herzegovina": {
+      "team_a": "Algeria",
+      "team_b": "Bosnia and Herzegovina",
+      "pct_a": 81.3,
+      "pct_b": 18.7
+    },
+    "Algeria|Brazil": {
+      "team_a": "Algeria",
+      "team_b": "Brazil",
+      "pct_a": 19.4,
+      "pct_b": 80.6
+    },
+    "Algeria|Canada": {
+      "team_a": "Algeria",
+      "team_b": "Canada",
+      "pct_a": 62.4,
+      "pct_b": 37.6
+    },
+    "Algeria|Cape Verde": {
+      "team_a": "Algeria",
+      "team_b": "Cape Verde",
+      "pct_a": 83.9,
+      "pct_b": 16.1
+    },
+    "Algeria|Colombia": {
+      "team_a": "Algeria",
+      "team_b": "Colombia",
+      "pct_a": 42.9,
+      "pct_b": 57.1
+    },
+    "Algeria|Croatia": {
+      "team_a": "Algeria",
+      "team_b": "Croatia",
+      "pct_a": 53.7,
+      "pct_b": 46.3
+    },
+    "Algeria|DR Congo": {
+      "team_a": "Algeria",
+      "team_b": "DR Congo",
+      "pct_a": 72.5,
+      "pct_b": 27.5
+    },
+    "Algeria|Ecuador": {
+      "team_a": "Algeria",
+      "team_b": "Ecuador",
+      "pct_a": 46.6,
+      "pct_b": 53.4
+    },
+    "Algeria|Egypt": {
+      "team_a": "Algeria",
+      "team_b": "Egypt",
+      "pct_a": 68.1,
+      "pct_b": 31.9
+    },
+    "Algeria|England": {
+      "team_a": "Algeria",
+      "team_b": "England",
+      "pct_a": 27.6,
+      "pct_b": 72.4
+    },
+    "Algeria|France": {
+      "team_a": "Algeria",
+      "team_b": "France",
+      "pct_a": 20.5,
+      "pct_b": 79.5
+    },
+    "Algeria|Germany": {
+      "team_a": "Algeria",
+      "team_b": "Germany",
+      "pct_a": 30.4,
+      "pct_b": 69.6
+    },
+    "Algeria|Ghana": {
+      "team_a": "Algeria",
+      "team_b": "Ghana",
+      "pct_a": 81.7,
+      "pct_b": 18.3
+    },
+    "Algeria|Ivory Coast": {
+      "team_a": "Algeria",
+      "team_b": "Ivory Coast",
+      "pct_a": 54.8,
+      "pct_b": 45.2
+    },
+    "Algeria|Japan": {
+      "team_a": "Algeria",
+      "team_b": "Japan",
+      "pct_a": 37.3,
+      "pct_b": 62.7
+    },
+    "Algeria|Mexico": {
+      "team_a": "Algeria",
+      "team_b": "Mexico",
+      "pct_a": 36.5,
+      "pct_b": 63.5
+    },
+    "Algeria|Morocco": {
+      "team_a": "Algeria",
+      "team_b": "Morocco",
+      "pct_a": 36.3,
+      "pct_b": 63.7
+    },
+    "Algeria|Netherlands": {
+      "team_a": "Algeria",
+      "team_b": "Netherlands",
+      "pct_a": 53.6,
+      "pct_b": 46.4
+    },
+    "Algeria|Norway": {
+      "team_a": "Algeria",
+      "team_b": "Norway",
+      "pct_a": 54.5,
+      "pct_b": 45.5
+    },
+    "Algeria|Paraguay": {
+      "team_a": "Algeria",
+      "team_b": "Paraguay",
+      "pct_a": 63.0,
+      "pct_b": 37.0
+    },
+    "Algeria|Portugal": {
+      "team_a": "Algeria",
+      "team_b": "Portugal",
+      "pct_a": 26.0,
+      "pct_b": 74.0
+    },
+    "Algeria|Senegal": {
+      "team_a": "Algeria",
+      "team_b": "Senegal",
+      "pct_a": 63.5,
+      "pct_b": 36.5
+    },
+    "Algeria|South Africa": {
+      "team_a": "Algeria",
+      "team_b": "South Africa",
+      "pct_a": 78.2,
+      "pct_b": 21.8
+    },
+    "Algeria|Spain": {
+      "team_a": "Algeria",
+      "team_b": "Spain",
+      "pct_a": 28.9,
+      "pct_b": 71.1
+    },
+    "Algeria|Sweden": {
+      "team_a": "Algeria",
+      "team_b": "Sweden",
+      "pct_a": 70.3,
+      "pct_b": 29.7
+    },
+    "Algeria|Switzerland": {
+      "team_a": "Algeria",
+      "team_b": "Switzerland",
+      "pct_a": 50.3,
+      "pct_b": 49.7
+    },
+    "Algeria|United States": {
+      "team_a": "Algeria",
+      "team_b": "United States",
+      "pct_a": 59.8,
+      "pct_b": 40.2
+    },
+    "Argentina|Australia": {
+      "team_a": "Argentina",
+      "team_b": "Australia",
+      "pct_a": 93.3,
+      "pct_b": 6.7
+    },
+    "Argentina|Austria": {
+      "team_a": "Argentina",
+      "team_b": "Austria",
+      "pct_a": 85.1,
+      "pct_b": 14.9
+    },
+    "Argentina|Belgium": {
+      "team_a": "Argentina",
+      "team_b": "Belgium",
+      "pct_a": 89.6,
+      "pct_b": 10.4
+    },
+    "Argentina|Bosnia and Herzegovina": {
+      "team_a": "Argentina",
+      "team_b": "Bosnia and Herzegovina",
+      "pct_a": 96.8,
+      "pct_b": 3.2
+    },
+    "Argentina|Brazil": {
+      "team_a": "Argentina",
+      "team_b": "Brazil",
+      "pct_a": 63.9,
+      "pct_b": 36.1
+    },
+    "Argentina|Canada": {
+      "team_a": "Argentina",
+      "team_b": "Canada",
+      "pct_a": 92.6,
+      "pct_b": 7.4
+    },
+    "Argentina|Cape Verde": {
+      "team_a": "Argentina",
+      "team_b": "Cape Verde",
+      "pct_a": 91.8,
+      "pct_b": 8.2
+    },
+    "Argentina|Colombia": {
+      "team_a": "Argentina",
+      "team_b": "Colombia",
+      "pct_a": 69.1,
+      "pct_b": 30.9
+    },
+    "Argentina|Croatia": {
+      "team_a": "Argentina",
+      "team_b": "Croatia",
+      "pct_a": 87.5,
+      "pct_b": 12.5
+    },
+    "Argentina|DR Congo": {
+      "team_a": "Argentina",
+      "team_b": "DR Congo",
+      "pct_a": 92.3,
+      "pct_b": 7.7
+    },
+    "Argentina|Ecuador": {
+      "team_a": "Argentina",
+      "team_b": "Ecuador",
+      "pct_a": 86.3,
+      "pct_b": 13.7
+    },
+    "Argentina|Egypt": {
+      "team_a": "Argentina",
+      "team_b": "Egypt",
+      "pct_a": 94.4,
+      "pct_b": 5.6
+    },
+    "Argentina|England": {
+      "team_a": "Argentina",
+      "team_b": "England",
+      "pct_a": 71.7,
+      "pct_b": 28.3
+    },
+    "Argentina|France": {
+      "team_a": "Argentina",
+      "team_b": "France",
+      "pct_a": 70.4,
+      "pct_b": 29.6
+    },
+    "Argentina|Germany": {
+      "team_a": "Argentina",
+      "team_b": "Germany",
+      "pct_a": 74.7,
+      "pct_b": 25.3
+    },
+    "Argentina|Ghana": {
+      "team_a": "Argentina",
+      "team_b": "Ghana",
+      "pct_a": 96.4,
+      "pct_b": 3.6
+    },
+    "Argentina|Ivory Coast": {
+      "team_a": "Argentina",
+      "team_b": "Ivory Coast",
+      "pct_a": 92.4,
+      "pct_b": 7.6
+    },
+    "Argentina|Japan": {
+      "team_a": "Argentina",
+      "team_b": "Japan",
+      "pct_a": 82.4,
+      "pct_b": 17.6
+    },
+    "Argentina|Mexico": {
+      "team_a": "Argentina",
+      "team_b": "Mexico",
+      "pct_a": 79.8,
+      "pct_b": 20.2
+    },
+    "Argentina|Morocco": {
+      "team_a": "Argentina",
+      "team_b": "Morocco",
+      "pct_a": 88.5,
+      "pct_b": 11.5
+    },
+    "Argentina|Netherlands": {
+      "team_a": "Argentina",
+      "team_b": "Netherlands",
+      "pct_a": 75.8,
+      "pct_b": 24.2
+    },
+    "Argentina|Norway": {
+      "team_a": "Argentina",
+      "team_b": "Norway",
+      "pct_a": 80.1,
+      "pct_b": 19.9
+    },
+    "Argentina|Paraguay": {
+      "team_a": "Argentina",
+      "team_b": "Paraguay",
+      "pct_a": 84.7,
+      "pct_b": 15.3
+    },
+    "Argentina|Portugal": {
+      "team_a": "Argentina",
+      "team_b": "Portugal",
+      "pct_a": 73.2,
+      "pct_b": 26.8
+    },
+    "Argentina|Senegal": {
+      "team_a": "Argentina",
+      "team_b": "Senegal",
+      "pct_a": 88.5,
+      "pct_b": 11.5
+    },
+    "Argentina|South Africa": {
+      "team_a": "Argentina",
+      "team_b": "South Africa",
+      "pct_a": 92.9,
+      "pct_b": 7.1
+    },
+    "Argentina|Spain": {
+      "team_a": "Argentina",
+      "team_b": "Spain",
+      "pct_a": 61.5,
+      "pct_b": 38.5
+    },
+    "Argentina|Sweden": {
+      "team_a": "Argentina",
+      "team_b": "Sweden",
+      "pct_a": 90.3,
+      "pct_b": 9.7
+    },
+    "Argentina|Switzerland": {
+      "team_a": "Argentina",
+      "team_b": "Switzerland",
+      "pct_a": 84.7,
+      "pct_b": 15.3
+    },
+    "Argentina|United States": {
+      "team_a": "Argentina",
+      "team_b": "United States",
+      "pct_a": 86.2,
+      "pct_b": 13.8
+    },
+    "Australia|Austria": {
+      "team_a": "Australia",
+      "team_b": "Austria",
+      "pct_a": 44.8,
+      "pct_b": 55.2
+    },
+    "Australia|Belgium": {
+      "team_a": "Australia",
+      "team_b": "Belgium",
+      "pct_a": 32.8,
+      "pct_b": 67.2
+    },
+    "Australia|Bosnia and Herzegovina": {
+      "team_a": "Australia",
+      "team_b": "Bosnia and Herzegovina",
+      "pct_a": 84.1,
+      "pct_b": 15.9
+    },
+    "Australia|Brazil": {
+      "team_a": "Australia",
+      "team_b": "Brazil",
+      "pct_a": 19.1,
+      "pct_b": 80.9
+    },
+    "Australia|Canada": {
+      "team_a": "Australia",
+      "team_b": "Canada",
+      "pct_a": 64.9,
+      "pct_b": 35.1
+    },
+    "Australia|Cape Verde": {
+      "team_a": "Australia",
+      "team_b": "Cape Verde",
+      "pct_a": 81.9,
+      "pct_b": 18.1
+    },
+    "Australia|Colombia": {
+      "team_a": "Australia",
+      "team_b": "Colombia",
+      "pct_a": 17.2,
+      "pct_b": 82.8
+    },
+    "Australia|Croatia": {
+      "team_a": "Australia",
+      "team_b": "Croatia",
+      "pct_a": 42.1,
+      "pct_b": 57.9
+    },
+    "Australia|DR Congo": {
+      "team_a": "Australia",
+      "team_b": "DR Congo",
+      "pct_a": 72.9,
+      "pct_b": 27.1
+    },
+    "Australia|Ecuador": {
+      "team_a": "Australia",
+      "team_b": "Ecuador",
+      "pct_a": 37.3,
+      "pct_b": 62.7
+    },
+    "Australia|Egypt": {
+      "team_a": "Australia",
+      "team_b": "Egypt",
+      "pct_a": 55.7,
+      "pct_b": 44.3
+    },
+    "Australia|England": {
+      "team_a": "Australia",
+      "team_b": "England",
+      "pct_a": 29.3,
+      "pct_b": 70.7
+    },
+    "Australia|France": {
+      "team_a": "Australia",
+      "team_b": "France",
+      "pct_a": 19.0,
+      "pct_b": 81.0
+    },
+    "Australia|Germany": {
+      "team_a": "Australia",
+      "team_b": "Germany",
+      "pct_a": 34.9,
+      "pct_b": 65.1
+    },
+    "Australia|Ghana": {
+      "team_a": "Australia",
+      "team_b": "Ghana",
+      "pct_a": 83.9,
+      "pct_b": 16.1
+    },
+    "Australia|Ivory Coast": {
+      "team_a": "Australia",
+      "team_b": "Ivory Coast",
+      "pct_a": 57.4,
+      "pct_b": 42.6
+    },
+    "Australia|Japan": {
+      "team_a": "Australia",
+      "team_b": "Japan",
+      "pct_a": 33.4,
+      "pct_b": 66.6
+    },
+    "Australia|Mexico": {
+      "team_a": "Australia",
+      "team_b": "Mexico",
+      "pct_a": 37.5,
+      "pct_b": 62.5
+    },
+    "Australia|Morocco": {
+      "team_a": "Australia",
+      "team_b": "Morocco",
+      "pct_a": 37.1,
+      "pct_b": 62.9
+    },
+    "Australia|Netherlands": {
+      "team_a": "Australia",
+      "team_b": "Netherlands",
+      "pct_a": 30.9,
+      "pct_b": 69.1
+    },
+    "Australia|Norway": {
+      "team_a": "Australia",
+      "team_b": "Norway",
+      "pct_a": 44.0,
+      "pct_b": 56.0
+    },
+    "Australia|Paraguay": {
+      "team_a": "Australia",
+      "team_b": "Paraguay",
+      "pct_a": 58.7,
+      "pct_b": 41.3
+    },
+    "Australia|Portugal": {
+      "team_a": "Australia",
+      "team_b": "Portugal",
+      "pct_a": 28.2,
+      "pct_b": 71.8
+    },
+    "Australia|Senegal": {
+      "team_a": "Australia",
+      "team_b": "Senegal",
+      "pct_a": 52.2,
+      "pct_b": 47.8
+    },
+    "Australia|South Africa": {
+      "team_a": "Australia",
+      "team_b": "South Africa",
+      "pct_a": 80.5,
+      "pct_b": 19.5
+    },
+    "Australia|Spain": {
+      "team_a": "Australia",
+      "team_b": "Spain",
+      "pct_a": 18.0,
+      "pct_b": 82.0
+    },
+    "Australia|Sweden": {
+      "team_a": "Australia",
+      "team_b": "Sweden",
+      "pct_a": 64.1,
+      "pct_b": 35.9
+    },
+    "Australia|Switzerland": {
+      "team_a": "Australia",
+      "team_b": "Switzerland",
+      "pct_a": 40.2,
+      "pct_b": 59.8
+    },
+    "Australia|United States": {
+      "team_a": "Australia",
+      "team_b": "United States",
+      "pct_a": 54.4,
+      "pct_b": 45.6
+    },
+    "Austria|Belgium": {
+      "team_a": "Austria",
+      "team_b": "Belgium",
+      "pct_a": 31.1,
+      "pct_b": 68.9
+    },
+    "Austria|Bosnia and Herzegovina": {
+      "team_a": "Austria",
+      "team_b": "Bosnia and Herzegovina",
+      "pct_a": 80.6,
+      "pct_b": 19.4
+    },
+    "Austria|Brazil": {
+      "team_a": "Austria",
+      "team_b": "Brazil",
+      "pct_a": 20.4,
+      "pct_b": 79.6
+    },
+    "Austria|Canada": {
+      "team_a": "Austria",
+      "team_b": "Canada",
+      "pct_a": 44.4,
+      "pct_b": 55.6
+    },
+    "Austria|Cape Verde": {
+      "team_a": "Austria",
+      "team_b": "Cape Verde",
+      "pct_a": 83.6,
+      "pct_b": 16.4
+    },
+    "Austria|Colombia": {
+      "team_a": "Austria",
+      "team_b": "Colombia",
+      "pct_a": 25.5,
+      "pct_b": 74.5
+    },
+    "Austria|Croatia": {
+      "team_a": "Austria",
+      "team_b": "Croatia",
+      "pct_a": 35.8,
+      "pct_b": 64.2
+    },
+    "Austria|DR Congo": {
+      "team_a": "Austria",
+      "team_b": "DR Congo",
+      "pct_a": 73.3,
+      "pct_b": 26.7
+    },
+    "Austria|Ecuador": {
+      "team_a": "Austria",
+      "team_b": "Ecuador",
+      "pct_a": 43.0,
+      "pct_b": 57.0
+    },
+    "Austria|Egypt": {
+      "team_a": "Austria",
+      "team_b": "Egypt",
+      "pct_a": 56.2,
+      "pct_b": 43.8
+    },
+    "Austria|England": {
+      "team_a": "Austria",
+      "team_b": "England",
+      "pct_a": 24.1,
+      "pct_b": 75.9
+    },
+    "Austria|France": {
+      "team_a": "Austria",
+      "team_b": "France",
+      "pct_a": 21.8,
+      "pct_b": 78.2
+    },
+    "Austria|Germany": {
+      "team_a": "Austria",
+      "team_b": "Germany",
+      "pct_a": 30.4,
+      "pct_b": 69.6
+    },
+    "Austria|Ghana": {
+      "team_a": "Austria",
+      "team_b": "Ghana",
+      "pct_a": 85.2,
+      "pct_b": 14.8
+    },
+    "Austria|Ivory Coast": {
+      "team_a": "Austria",
+      "team_b": "Ivory Coast",
+      "pct_a": 61.7,
+      "pct_b": 38.3
+    },
+    "Austria|Japan": {
+      "team_a": "Austria",
+      "team_b": "Japan",
+      "pct_a": 25.9,
+      "pct_b": 74.1
+    },
+    "Austria|Mexico": {
+      "team_a": "Austria",
+      "team_b": "Mexico",
+      "pct_a": 37.5,
+      "pct_b": 62.5
+    },
+    "Austria|Morocco": {
+      "team_a": "Austria",
+      "team_b": "Morocco",
+      "pct_a": 38.9,
+      "pct_b": 61.1
+    },
+    "Austria|Netherlands": {
+      "team_a": "Austria",
+      "team_b": "Netherlands",
+      "pct_a": 33.2,
+      "pct_b": 66.8
+    },
+    "Austria|Norway": {
+      "team_a": "Austria",
+      "team_b": "Norway",
+      "pct_a": 47.6,
+      "pct_b": 52.4
+    },
+    "Austria|Paraguay": {
+      "team_a": "Austria",
+      "team_b": "Paraguay",
+      "pct_a": 53.8,
+      "pct_b": 46.2
+    },
+    "Austria|Portugal": {
+      "team_a": "Austria",
+      "team_b": "Portugal",
+      "pct_a": 22.7,
+      "pct_b": 77.3
+    },
+    "Austria|Senegal": {
+      "team_a": "Austria",
+      "team_b": "Senegal",
+      "pct_a": 57.7,
+      "pct_b": 42.3
+    },
+    "Austria|South Africa": {
+      "team_a": "Austria",
+      "team_b": "South Africa",
+      "pct_a": 85.2,
+      "pct_b": 14.8
+    },
+    "Austria|Spain": {
+      "team_a": "Austria",
+      "team_b": "Spain",
+      "pct_a": 22.0,
+      "pct_b": 78.0
+    },
+    "Austria|Sweden": {
+      "team_a": "Austria",
+      "team_b": "Sweden",
+      "pct_a": 68.6,
+      "pct_b": 31.4
+    },
+    "Austria|Switzerland": {
+      "team_a": "Austria",
+      "team_b": "Switzerland",
+      "pct_a": 44.3,
+      "pct_b": 55.7
+    },
+    "Austria|United States": {
+      "team_a": "Austria",
+      "team_b": "United States",
+      "pct_a": 64.1,
+      "pct_b": 35.9
+    },
+    "Belgium|Bosnia and Herzegovina": {
+      "team_a": "Belgium",
+      "team_b": "Bosnia and Herzegovina",
+      "pct_a": 86.2,
+      "pct_b": 13.8
+    },
+    "Belgium|Brazil": {
+      "team_a": "Belgium",
+      "team_b": "Brazil",
+      "pct_a": 34.2,
+      "pct_b": 65.8
+    },
+    "Belgium|Canada": {
+      "team_a": "Belgium",
+      "team_b": "Canada",
+      "pct_a": 73.5,
+      "pct_b": 26.5
+    },
+    "Belgium|Cape Verde": {
+      "team_a": "Belgium",
+      "team_b": "Cape Verde",
+      "pct_a": 84.8,
+      "pct_b": 15.2
+    },
+    "Belgium|Colombia": {
+      "team_a": "Belgium",
+      "team_b": "Colombia",
+      "pct_a": 37.4,
+      "pct_b": 62.6
+    },
+    "Belgium|Croatia": {
+      "team_a": "Belgium",
+      "team_b": "Croatia",
+      "pct_a": 59.0,
+      "pct_b": 41.0
+    },
+    "Belgium|DR Congo": {
+      "team_a": "Belgium",
+      "team_b": "DR Congo",
+      "pct_a": 83.9,
+      "pct_b": 16.1
+    },
+    "Belgium|Ecuador": {
+      "team_a": "Belgium",
+      "team_b": "Ecuador",
+      "pct_a": 56.6,
+      "pct_b": 43.4
+    },
+    "Belgium|Egypt": {
+      "team_a": "Belgium",
+      "team_b": "Egypt",
+      "pct_a": 67.4,
+      "pct_b": 32.6
+    },
+    "Belgium|England": {
+      "team_a": "Belgium",
+      "team_b": "England",
+      "pct_a": 40.9,
+      "pct_b": 59.1
+    },
+    "Belgium|France": {
+      "team_a": "Belgium",
+      "team_b": "France",
+      "pct_a": 30.7,
+      "pct_b": 69.3
+    },
+    "Belgium|Germany": {
+      "team_a": "Belgium",
+      "team_b": "Germany",
+      "pct_a": 38.4,
+      "pct_b": 61.6
+    },
+    "Belgium|Ghana": {
+      "team_a": "Belgium",
+      "team_b": "Ghana",
+      "pct_a": 85.0,
+      "pct_b": 15.0
+    },
+    "Belgium|Ivory Coast": {
+      "team_a": "Belgium",
+      "team_b": "Ivory Coast",
+      "pct_a": 61.7,
+      "pct_b": 38.3
+    },
+    "Belgium|Japan": {
+      "team_a": "Belgium",
+      "team_b": "Japan",
+      "pct_a": 44.0,
+      "pct_b": 56.0
+    },
+    "Belgium|Mexico": {
+      "team_a": "Belgium",
+      "team_b": "Mexico",
+      "pct_a": 52.0,
+      "pct_b": 48.0
+    },
+    "Belgium|Morocco": {
+      "team_a": "Belgium",
+      "team_b": "Morocco",
+      "pct_a": 47.5,
+      "pct_b": 52.5
+    },
+    "Belgium|Netherlands": {
+      "team_a": "Belgium",
+      "team_b": "Netherlands",
+      "pct_a": 45.4,
+      "pct_b": 54.6
+    },
+    "Belgium|Norway": {
+      "team_a": "Belgium",
+      "team_b": "Norway",
+      "pct_a": 65.0,
+      "pct_b": 35.0
+    },
+    "Belgium|Paraguay": {
+      "team_a": "Belgium",
+      "team_b": "Paraguay",
+      "pct_a": 75.2,
+      "pct_b": 24.8
+    },
+    "Belgium|Portugal": {
+      "team_a": "Belgium",
+      "team_b": "Portugal",
+      "pct_a": 36.1,
+      "pct_b": 63.9
+    },
+    "Belgium|Senegal": {
+      "team_a": "Belgium",
+      "team_b": "Senegal",
+      "pct_a": 69.0,
+      "pct_b": 31.0
+    },
+    "Belgium|South Africa": {
+      "team_a": "Belgium",
+      "team_b": "South Africa",
+      "pct_a": 85.0,
+      "pct_b": 15.0
+    },
+    "Belgium|Spain": {
+      "team_a": "Belgium",
+      "team_b": "Spain",
+      "pct_a": 23.7,
+      "pct_b": 76.3
+    },
+    "Belgium|Sweden": {
+      "team_a": "Belgium",
+      "team_b": "Sweden",
+      "pct_a": 82.8,
+      "pct_b": 17.2
+    },
+    "Belgium|Switzerland": {
+      "team_a": "Belgium",
+      "team_b": "Switzerland",
+      "pct_a": 66.9,
+      "pct_b": 33.1
+    },
+    "Belgium|United States": {
+      "team_a": "Belgium",
+      "team_b": "United States",
+      "pct_a": 75.8,
+      "pct_b": 24.2
+    },
+    "Bosnia and Herzegovina|Brazil": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Brazil",
+      "pct_a": 3.8,
+      "pct_b": 96.2
+    },
+    "Bosnia and Herzegovina|Canada": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Canada",
+      "pct_a": 16.1,
+      "pct_b": 83.9
+    },
+    "Bosnia and Herzegovina|Cape Verde": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Cape Verde",
+      "pct_a": 39.7,
+      "pct_b": 60.3
+    },
+    "Bosnia and Herzegovina|Colombia": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Colombia",
+      "pct_a": 8.3,
+      "pct_b": 91.7
+    },
+    "Bosnia and Herzegovina|Croatia": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Croatia",
+      "pct_a": 15.1,
+      "pct_b": 84.9
+    },
+    "Bosnia and Herzegovina|DR Congo": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "DR Congo",
+      "pct_a": 32.9,
+      "pct_b": 67.1
+    },
+    "Bosnia and Herzegovina|Ecuador": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Ecuador",
+      "pct_a": 14.9,
+      "pct_b": 85.1
+    },
+    "Bosnia and Herzegovina|Egypt": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Egypt",
+      "pct_a": 16.8,
+      "pct_b": 83.2
+    },
+    "Bosnia and Herzegovina|England": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "England",
+      "pct_a": 8.5,
+      "pct_b": 91.5
+    },
+    "Bosnia and Herzegovina|France": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "France",
+      "pct_a": 4.7,
+      "pct_b": 95.3
+    },
+    "Bosnia and Herzegovina|Germany": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Germany",
+      "pct_a": 7.2,
+      "pct_b": 92.8
+    },
+    "Bosnia and Herzegovina|Ghana": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Ghana",
+      "pct_a": 56.6,
+      "pct_b": 43.4
+    },
+    "Bosnia and Herzegovina|Ivory Coast": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Ivory Coast",
+      "pct_a": 37.6,
+      "pct_b": 62.4
+    },
+    "Bosnia and Herzegovina|Japan": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Japan",
+      "pct_a": 13.3,
+      "pct_b": 86.7
+    },
+    "Bosnia and Herzegovina|Mexico": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Mexico",
+      "pct_a": 15.8,
+      "pct_b": 84.2
+    },
+    "Bosnia and Herzegovina|Morocco": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Morocco",
+      "pct_a": 13.4,
+      "pct_b": 86.6
+    },
+    "Bosnia and Herzegovina|Netherlands": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Netherlands",
+      "pct_a": 10.3,
+      "pct_b": 89.7
+    },
+    "Bosnia and Herzegovina|Norway": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Norway",
+      "pct_a": 16.7,
+      "pct_b": 83.3
+    },
+    "Bosnia and Herzegovina|Paraguay": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Paraguay",
+      "pct_a": 16.7,
+      "pct_b": 83.3
+    },
+    "Bosnia and Herzegovina|Portugal": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Portugal",
+      "pct_a": 5.0,
+      "pct_b": 95.0
+    },
+    "Bosnia and Herzegovina|Senegal": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Senegal",
+      "pct_a": 17.9,
+      "pct_b": 82.1
+    },
+    "Bosnia and Herzegovina|South Africa": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "South Africa",
+      "pct_a": 39.7,
+      "pct_b": 60.3
+    },
+    "Bosnia and Herzegovina|Spain": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Spain",
+      "pct_a": 7.2,
+      "pct_b": 92.8
+    },
+    "Bosnia and Herzegovina|Sweden": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Sweden",
+      "pct_a": 22.0,
+      "pct_b": 78.0
+    },
+    "Bosnia and Herzegovina|Switzerland": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "Switzerland",
+      "pct_a": 15.7,
+      "pct_b": 84.3
+    },
+    "Bosnia and Herzegovina|United States": {
+      "team_a": "Bosnia and Herzegovina",
+      "team_b": "United States",
+      "pct_a": 16.8,
+      "pct_b": 83.2
+    },
+    "Brazil|Canada": {
+      "team_a": "Brazil",
+      "team_b": "Canada",
+      "pct_a": 83.9,
+      "pct_b": 16.1
+    },
+    "Brazil|Cape Verde": {
+      "team_a": "Brazil",
+      "team_b": "Cape Verde",
+      "pct_a": 89.4,
+      "pct_b": 10.6
+    },
+    "Brazil|Colombia": {
+      "team_a": "Brazil",
+      "team_b": "Colombia",
+      "pct_a": 63.2,
+      "pct_b": 36.8
+    },
+    "Brazil|Croatia": {
+      "team_a": "Brazil",
+      "team_b": "Croatia",
+      "pct_a": 77.1,
+      "pct_b": 22.9
+    },
+    "Brazil|DR Congo": {
+      "team_a": "Brazil",
+      "team_b": "DR Congo",
+      "pct_a": 90.3,
+      "pct_b": 9.7
+    },
+    "Brazil|Ecuador": {
+      "team_a": "Brazil",
+      "team_b": "Ecuador",
+      "pct_a": 73.6,
+      "pct_b": 26.4
+    },
+    "Brazil|Egypt": {
+      "team_a": "Brazil",
+      "team_b": "Egypt",
+      "pct_a": 90.1,
+      "pct_b": 9.9
+    },
+    "Brazil|England": {
+      "team_a": "Brazil",
+      "team_b": "England",
+      "pct_a": 59.9,
+      "pct_b": 40.1
+    },
+    "Brazil|France": {
+      "team_a": "Brazil",
+      "team_b": "France",
+      "pct_a": 47.1,
+      "pct_b": 52.9
+    },
+    "Brazil|Germany": {
+      "team_a": "Brazil",
+      "team_b": "Germany",
+      "pct_a": 67.1,
+      "pct_b": 32.9
+    },
+    "Brazil|Ghana": {
+      "team_a": "Brazil",
+      "team_b": "Ghana",
+      "pct_a": 95.9,
+      "pct_b": 4.1
+    },
+    "Brazil|Ivory Coast": {
+      "team_a": "Brazil",
+      "team_b": "Ivory Coast",
+      "pct_a": 87.5,
+      "pct_b": 12.5
+    },
+    "Brazil|Japan": {
+      "team_a": "Brazil",
+      "team_b": "Japan",
+      "pct_a": 71.5,
+      "pct_b": 28.5
+    },
+    "Brazil|Mexico": {
+      "team_a": "Brazil",
+      "team_b": "Mexico",
+      "pct_a": 69.9,
+      "pct_b": 30.1
+    },
+    "Brazil|Morocco": {
+      "team_a": "Brazil",
+      "team_b": "Morocco",
+      "pct_a": 72.3,
+      "pct_b": 27.7
+    },
+    "Brazil|Netherlands": {
+      "team_a": "Brazil",
+      "team_b": "Netherlands",
+      "pct_a": 64.8,
+      "pct_b": 35.2
+    },
+    "Brazil|Norway": {
+      "team_a": "Brazil",
+      "team_b": "Norway",
+      "pct_a": 77.5,
+      "pct_b": 22.5
+    },
+    "Brazil|Paraguay": {
+      "team_a": "Brazil",
+      "team_b": "Paraguay",
+      "pct_a": 84.0,
+      "pct_b": 16.0
+    },
+    "Brazil|Portugal": {
+      "team_a": "Brazil",
+      "team_b": "Portugal",
+      "pct_a": 58.8,
+      "pct_b": 41.2
+    },
+    "Brazil|Senegal": {
+      "team_a": "Brazil",
+      "team_b": "Senegal",
+      "pct_a": 80.8,
+      "pct_b": 19.2
+    },
+    "Brazil|South Africa": {
+      "team_a": "Brazil",
+      "team_b": "South Africa",
+      "pct_a": 95.9,
+      "pct_b": 4.1
+    },
+    "Brazil|Spain": {
+      "team_a": "Brazil",
+      "team_b": "Spain",
+      "pct_a": 46.4,
+      "pct_b": 53.6
+    },
+    "Brazil|Sweden": {
+      "team_a": "Brazil",
+      "team_b": "Sweden",
+      "pct_a": 92.1,
+      "pct_b": 7.9
+    },
+    "Brazil|Switzerland": {
+      "team_a": "Brazil",
+      "team_b": "Switzerland",
+      "pct_a": 80.0,
+      "pct_b": 20.0
+    },
+    "Brazil|United States": {
+      "team_a": "Brazil",
+      "team_b": "United States",
+      "pct_a": 89.7,
+      "pct_b": 10.3
+    },
+    "Canada|Cape Verde": {
+      "team_a": "Canada",
+      "team_b": "Cape Verde",
+      "pct_a": 82.7,
+      "pct_b": 17.3
+    },
+    "Canada|Colombia": {
+      "team_a": "Canada",
+      "team_b": "Colombia",
+      "pct_a": 22.2,
+      "pct_b": 77.8
+    },
+    "Canada|Croatia": {
+      "team_a": "Canada",
+      "team_b": "Croatia",
+      "pct_a": 37.5,
+      "pct_b": 62.5
+    },
+    "Canada|DR Congo": {
+      "team_a": "Canada",
+      "team_b": "DR Congo",
+      "pct_a": 72.2,
+      "pct_b": 27.8
+    },
+    "Canada|Ecuador": {
+      "team_a": "Canada",
+      "team_b": "Ecuador",
+      "pct_a": 33.1,
+      "pct_b": 66.9
+    },
+    "Canada|Egypt": {
+      "team_a": "Canada",
+      "team_b": "Egypt",
+      "pct_a": 55.3,
+      "pct_b": 44.7
+    },
+    "Canada|England": {
+      "team_a": "Canada",
+      "team_b": "England",
+      "pct_a": 27.2,
+      "pct_b": 72.8
+    },
+    "Canada|France": {
+      "team_a": "Canada",
+      "team_b": "France",
+      "pct_a": 18.9,
+      "pct_b": 81.1
+    },
+    "Canada|Germany": {
+      "team_a": "Canada",
+      "team_b": "Germany",
+      "pct_a": 25.6,
+      "pct_b": 74.4
+    },
+    "Canada|Ghana": {
+      "team_a": "Canada",
+      "team_b": "Ghana",
+      "pct_a": 83.2,
+      "pct_b": 16.8
+    },
+    "Canada|Ivory Coast": {
+      "team_a": "Canada",
+      "team_b": "Ivory Coast",
+      "pct_a": 51.8,
+      "pct_b": 48.2
+    },
+    "Canada|Japan": {
+      "team_a": "Canada",
+      "team_b": "Japan",
+      "pct_a": 33.4,
+      "pct_b": 66.6
+    },
+    "Canada|Mexico": {
+      "team_a": "Canada",
+      "team_b": "Mexico",
+      "pct_a": 33.4,
+      "pct_b": 66.6
+    },
+    "Canada|Morocco": {
+      "team_a": "Canada",
+      "team_b": "Morocco",
+      "pct_a": 30.3,
+      "pct_b": 69.7
+    },
+    "Canada|Netherlands": {
+      "team_a": "Canada",
+      "team_b": "Netherlands",
+      "pct_a": 26.7,
+      "pct_b": 73.3
+    },
+    "Canada|Norway": {
+      "team_a": "Canada",
+      "team_b": "Norway",
+      "pct_a": 46.8,
+      "pct_b": 53.2
+    },
+    "Canada|Paraguay": {
+      "team_a": "Canada",
+      "team_b": "Paraguay",
+      "pct_a": 58.6,
+      "pct_b": 41.4
+    },
+    "Canada|Portugal": {
+      "team_a": "Canada",
+      "team_b": "Portugal",
+      "pct_a": 20.4,
+      "pct_b": 79.6
+    },
+    "Canada|Senegal": {
+      "team_a": "Canada",
+      "team_b": "Senegal",
+      "pct_a": 54.5,
+      "pct_b": 45.5
+    },
+    "Canada|South Africa": {
+      "team_a": "Canada",
+      "team_b": "South Africa",
+      "pct_a": 77.2,
+      "pct_b": 22.8
+    },
+    "Canada|Spain": {
+      "team_a": "Canada",
+      "team_b": "Spain",
+      "pct_a": 18.5,
+      "pct_b": 81.5
+    },
+    "Canada|Sweden": {
+      "team_a": "Canada",
+      "team_b": "Sweden",
+      "pct_a": 69.3,
+      "pct_b": 30.7
+    },
+    "Canada|Switzerland": {
+      "team_a": "Canada",
+      "team_b": "Switzerland",
+      "pct_a": 57.4,
+      "pct_b": 42.6
+    },
+    "Canada|United States": {
+      "team_a": "Canada",
+      "team_b": "United States",
+      "pct_a": 52.5,
+      "pct_b": 47.5
+    },
+    "Cape Verde|Colombia": {
+      "team_a": "Cape Verde",
+      "team_b": "Colombia",
+      "pct_a": 11.5,
+      "pct_b": 88.5
+    },
+    "Cape Verde|Croatia": {
+      "team_a": "Cape Verde",
+      "team_b": "Croatia",
+      "pct_a": 23.9,
+      "pct_b": 76.1
+    },
+    "Cape Verde|DR Congo": {
+      "team_a": "Cape Verde",
+      "team_b": "DR Congo",
+      "pct_a": 37.1,
+      "pct_b": 62.9
+    },
+    "Cape Verde|Ecuador": {
+      "team_a": "Cape Verde",
+      "team_b": "Ecuador",
+      "pct_a": 15.8,
+      "pct_b": 84.2
+    },
+    "Cape Verde|Egypt": {
+      "team_a": "Cape Verde",
+      "team_b": "Egypt",
+      "pct_a": 22.5,
+      "pct_b": 77.5
+    },
+    "Cape Verde|England": {
+      "team_a": "Cape Verde",
+      "team_b": "England",
+      "pct_a": 14.0,
+      "pct_b": 86.0
+    },
+    "Cape Verde|France": {
+      "team_a": "Cape Verde",
+      "team_b": "France",
+      "pct_a": 10.2,
+      "pct_b": 89.8
+    },
+    "Cape Verde|Germany": {
+      "team_a": "Cape Verde",
+      "team_b": "Germany",
+      "pct_a": 13.7,
+      "pct_b": 86.3
+    },
+    "Cape Verde|Ghana": {
+      "team_a": "Cape Verde",
+      "team_b": "Ghana",
+      "pct_a": 45.8,
+      "pct_b": 54.2
+    },
+    "Cape Verde|Ivory Coast": {
+      "team_a": "Cape Verde",
+      "team_b": "Ivory Coast",
+      "pct_a": 21.7,
+      "pct_b": 78.3
+    },
+    "Cape Verde|Japan": {
+      "team_a": "Cape Verde",
+      "team_b": "Japan",
+      "pct_a": 15.0,
+      "pct_b": 85.0
+    },
+    "Cape Verde|Mexico": {
+      "team_a": "Cape Verde",
+      "team_b": "Mexico",
+      "pct_a": 16.2,
+      "pct_b": 83.8
+    },
+    "Cape Verde|Morocco": {
+      "team_a": "Cape Verde",
+      "team_b": "Morocco",
+      "pct_a": 13.5,
+      "pct_b": 86.5
+    },
+    "Cape Verde|Netherlands": {
+      "team_a": "Cape Verde",
+      "team_b": "Netherlands",
+      "pct_a": 20.0,
+      "pct_b": 80.0
+    },
+    "Cape Verde|Norway": {
+      "team_a": "Cape Verde",
+      "team_b": "Norway",
+      "pct_a": 18.9,
+      "pct_b": 81.1
+    },
+    "Cape Verde|Paraguay": {
+      "team_a": "Cape Verde",
+      "team_b": "Paraguay",
+      "pct_a": 24.3,
+      "pct_b": 75.7
+    },
+    "Cape Verde|Portugal": {
+      "team_a": "Cape Verde",
+      "team_b": "Portugal",
+      "pct_a": 15.5,
+      "pct_b": 84.5
+    },
+    "Cape Verde|Senegal": {
+      "team_a": "Cape Verde",
+      "team_b": "Senegal",
+      "pct_a": 22.0,
+      "pct_b": 78.0
+    },
+    "Cape Verde|South Africa": {
+      "team_a": "Cape Verde",
+      "team_b": "South Africa",
+      "pct_a": 47.6,
+      "pct_b": 52.4
+    },
+    "Cape Verde|Spain": {
+      "team_a": "Cape Verde",
+      "team_b": "Spain",
+      "pct_a": 9.8,
+      "pct_b": 90.2
+    },
+    "Cape Verde|Sweden": {
+      "team_a": "Cape Verde",
+      "team_b": "Sweden",
+      "pct_a": 36.9,
+      "pct_b": 63.1
+    },
+    "Cape Verde|Switzerland": {
+      "team_a": "Cape Verde",
+      "team_b": "Switzerland",
+      "pct_a": 21.5,
+      "pct_b": 78.5
+    },
+    "Cape Verde|United States": {
+      "team_a": "Cape Verde",
+      "team_b": "United States",
+      "pct_a": 25.5,
+      "pct_b": 74.5
+    },
+    "Colombia|Croatia": {
+      "team_a": "Colombia",
+      "team_b": "Croatia",
+      "pct_a": 71.6,
+      "pct_b": 28.4
+    },
+    "Colombia|DR Congo": {
+      "team_a": "Colombia",
+      "team_b": "DR Congo",
+      "pct_a": 93.7,
+      "pct_b": 6.3
+    },
+    "Colombia|Ecuador": {
+      "team_a": "Colombia",
+      "team_b": "Ecuador",
+      "pct_a": 70.0,
+      "pct_b": 30.0
+    },
+    "Colombia|Egypt": {
+      "team_a": "Colombia",
+      "team_b": "Egypt",
+      "pct_a": 78.4,
+      "pct_b": 21.6
+    },
+    "Colombia|England": {
+      "team_a": "Colombia",
+      "team_b": "England",
+      "pct_a": 55.6,
+      "pct_b": 44.4
+    },
+    "Colombia|France": {
+      "team_a": "Colombia",
+      "team_b": "France",
+      "pct_a": 44.6,
+      "pct_b": 55.4
+    },
+    "Colombia|Germany": {
+      "team_a": "Colombia",
+      "team_b": "Germany",
+      "pct_a": 55.2,
+      "pct_b": 44.8
+    },
+    "Colombia|Ghana": {
+      "team_a": "Colombia",
+      "team_b": "Ghana",
+      "pct_a": 89.3,
+      "pct_b": 10.7
+    },
+    "Colombia|Ivory Coast": {
+      "team_a": "Colombia",
+      "team_b": "Ivory Coast",
+      "pct_a": 85.3,
+      "pct_b": 14.7
+    },
+    "Colombia|Japan": {
+      "team_a": "Colombia",
+      "team_b": "Japan",
+      "pct_a": 66.5,
+      "pct_b": 33.5
+    },
+    "Colombia|Mexico": {
+      "team_a": "Colombia",
+      "team_b": "Mexico",
+      "pct_a": 63.3,
+      "pct_b": 36.7
+    },
+    "Colombia|Morocco": {
+      "team_a": "Colombia",
+      "team_b": "Morocco",
+      "pct_a": 75.7,
+      "pct_b": 24.3
+    },
+    "Colombia|Netherlands": {
+      "team_a": "Colombia",
+      "team_b": "Netherlands",
+      "pct_a": 58.7,
+      "pct_b": 41.3
+    },
+    "Colombia|Norway": {
+      "team_a": "Colombia",
+      "team_b": "Norway",
+      "pct_a": 70.5,
+      "pct_b": 29.5
+    },
+    "Colombia|Paraguay": {
+      "team_a": "Colombia",
+      "team_b": "Paraguay",
+      "pct_a": 83.3,
+      "pct_b": 16.7
+    },
+    "Colombia|Portugal": {
+      "team_a": "Colombia",
+      "team_b": "Portugal",
+      "pct_a": 61.1,
+      "pct_b": 38.9
+    },
+    "Colombia|Senegal": {
+      "team_a": "Colombia",
+      "team_b": "Senegal",
+      "pct_a": 77.6,
+      "pct_b": 22.4
+    },
+    "Colombia|South Africa": {
+      "team_a": "Colombia",
+      "team_b": "South Africa",
+      "pct_a": 84.5,
+      "pct_b": 15.5
+    },
+    "Colombia|Spain": {
+      "team_a": "Colombia",
+      "team_b": "Spain",
+      "pct_a": 38.2,
+      "pct_b": 61.8
+    },
+    "Colombia|Sweden": {
+      "team_a": "Colombia",
+      "team_b": "Sweden",
+      "pct_a": 80.9,
+      "pct_b": 19.1
+    },
+    "Colombia|Switzerland": {
+      "team_a": "Colombia",
+      "team_b": "Switzerland",
+      "pct_a": 73.8,
+      "pct_b": 26.2
+    },
+    "Colombia|United States": {
+      "team_a": "Colombia",
+      "team_b": "United States",
+      "pct_a": 83.6,
+      "pct_b": 16.4
+    },
+    "Croatia|DR Congo": {
+      "team_a": "Croatia",
+      "team_b": "DR Congo",
+      "pct_a": 81.7,
+      "pct_b": 18.3
+    },
+    "Croatia|Ecuador": {
+      "team_a": "Croatia",
+      "team_b": "Ecuador",
+      "pct_a": 43.1,
+      "pct_b": 56.9
+    },
+    "Croatia|Egypt": {
+      "team_a": "Croatia",
+      "team_b": "Egypt",
+      "pct_a": 65.9,
+      "pct_b": 34.1
+    },
+    "Croatia|England": {
+      "team_a": "Croatia",
+      "team_b": "England",
+      "pct_a": 35.6,
+      "pct_b": 64.4
+    },
+    "Croatia|France": {
+      "team_a": "Croatia",
+      "team_b": "France",
+      "pct_a": 24.9,
+      "pct_b": 75.1
+    },
+    "Croatia|Germany": {
+      "team_a": "Croatia",
+      "team_b": "Germany",
+      "pct_a": 35.8,
+      "pct_b": 64.2
+    },
+    "Croatia|Ghana": {
+      "team_a": "Croatia",
+      "team_b": "Ghana",
+      "pct_a": 82.6,
+      "pct_b": 17.4
+    },
+    "Croatia|Ivory Coast": {
+      "team_a": "Croatia",
+      "team_b": "Ivory Coast",
+      "pct_a": 61.1,
+      "pct_b": 38.9
+    },
+    "Croatia|Japan": {
+      "team_a": "Croatia",
+      "team_b": "Japan",
+      "pct_a": 40.0,
+      "pct_b": 60.0
+    },
+    "Croatia|Mexico": {
+      "team_a": "Croatia",
+      "team_b": "Mexico",
+      "pct_a": 58.4,
+      "pct_b": 41.6
+    },
+    "Croatia|Morocco": {
+      "team_a": "Croatia",
+      "team_b": "Morocco",
+      "pct_a": 41.5,
+      "pct_b": 58.5
+    },
+    "Croatia|Netherlands": {
+      "team_a": "Croatia",
+      "team_b": "Netherlands",
+      "pct_a": 50.8,
+      "pct_b": 49.2
+    },
+    "Croatia|Norway": {
+      "team_a": "Croatia",
+      "team_b": "Norway",
+      "pct_a": 61.1,
+      "pct_b": 38.9
+    },
+    "Croatia|Paraguay": {
+      "team_a": "Croatia",
+      "team_b": "Paraguay",
+      "pct_a": 62.9,
+      "pct_b": 37.1
+    },
+    "Croatia|Portugal": {
+      "team_a": "Croatia",
+      "team_b": "Portugal",
+      "pct_a": 32.2,
+      "pct_b": 67.8
+    },
+    "Croatia|Senegal": {
+      "team_a": "Croatia",
+      "team_b": "Senegal",
+      "pct_a": 70.8,
+      "pct_b": 29.2
+    },
+    "Croatia|South Africa": {
+      "team_a": "Croatia",
+      "team_b": "South Africa",
+      "pct_a": 82.6,
+      "pct_b": 17.4
+    },
+    "Croatia|Spain": {
+      "team_a": "Croatia",
+      "team_b": "Spain",
+      "pct_a": 23.4,
+      "pct_b": 76.6
+    },
+    "Croatia|Sweden": {
+      "team_a": "Croatia",
+      "team_b": "Sweden",
+      "pct_a": 73.2,
+      "pct_b": 26.8
+    },
+    "Croatia|Switzerland": {
+      "team_a": "Croatia",
+      "team_b": "Switzerland",
+      "pct_a": 49.9,
+      "pct_b": 50.1
+    },
+    "Croatia|United States": {
+      "team_a": "Croatia",
+      "team_b": "United States",
+      "pct_a": 72.9,
+      "pct_b": 27.1
+    },
+    "DR Congo|Ecuador": {
+      "team_a": "DR Congo",
+      "team_b": "Ecuador",
+      "pct_a": 21.7,
+      "pct_b": 78.3
+    },
+    "DR Congo|Egypt": {
+      "team_a": "DR Congo",
+      "team_b": "Egypt",
+      "pct_a": 32.9,
+      "pct_b": 67.1
+    },
+    "DR Congo|England": {
+      "team_a": "DR Congo",
+      "team_b": "England",
+      "pct_a": 15.7,
+      "pct_b": 84.3
+    },
+    "DR Congo|France": {
+      "team_a": "DR Congo",
+      "team_b": "France",
+      "pct_a": 13.4,
+      "pct_b": 86.6
+    },
+    "DR Congo|Germany": {
+      "team_a": "DR Congo",
+      "team_b": "Germany",
+      "pct_a": 17.5,
+      "pct_b": 82.5
+    },
+    "DR Congo|Ghana": {
+      "team_a": "DR Congo",
+      "team_b": "Ghana",
+      "pct_a": 54.6,
+      "pct_b": 45.4
+    },
+    "DR Congo|Ivory Coast": {
+      "team_a": "DR Congo",
+      "team_b": "Ivory Coast",
+      "pct_a": 36.7,
+      "pct_b": 63.3
+    },
+    "DR Congo|Japan": {
+      "team_a": "DR Congo",
+      "team_b": "Japan",
+      "pct_a": 18.5,
+      "pct_b": 81.5
+    },
+    "DR Congo|Mexico": {
+      "team_a": "DR Congo",
+      "team_b": "Mexico",
+      "pct_a": 13.7,
+      "pct_b": 86.3
+    },
+    "DR Congo|Morocco": {
+      "team_a": "DR Congo",
+      "team_b": "Morocco",
+      "pct_a": 18.5,
+      "pct_b": 81.5
+    },
+    "DR Congo|Netherlands": {
+      "team_a": "DR Congo",
+      "team_b": "Netherlands",
+      "pct_a": 20.8,
+      "pct_b": 79.2
+    },
+    "DR Congo|Norway": {
+      "team_a": "DR Congo",
+      "team_b": "Norway",
+      "pct_a": 24.1,
+      "pct_b": 75.9
+    },
+    "DR Congo|Paraguay": {
+      "team_a": "DR Congo",
+      "team_b": "Paraguay",
+      "pct_a": 34.4,
+      "pct_b": 65.6
+    },
+    "DR Congo|Portugal": {
+      "team_a": "DR Congo",
+      "team_b": "Portugal",
+      "pct_a": 12.0,
+      "pct_b": 88.0
+    },
+    "DR Congo|Senegal": {
+      "team_a": "DR Congo",
+      "team_b": "Senegal",
+      "pct_a": 24.5,
+      "pct_b": 75.5
+    },
+    "DR Congo|South Africa": {
+      "team_a": "DR Congo",
+      "team_b": "South Africa",
+      "pct_a": 52.7,
+      "pct_b": 47.3
+    },
+    "DR Congo|Spain": {
+      "team_a": "DR Congo",
+      "team_b": "Spain",
+      "pct_a": 11.3,
+      "pct_b": 88.7
+    },
+    "DR Congo|Sweden": {
+      "team_a": "DR Congo",
+      "team_b": "Sweden",
+      "pct_a": 43.1,
+      "pct_b": 56.9
+    },
+    "DR Congo|Switzerland": {
+      "team_a": "DR Congo",
+      "team_b": "Switzerland",
+      "pct_a": 19.4,
+      "pct_b": 80.6
+    },
+    "DR Congo|United States": {
+      "team_a": "DR Congo",
+      "team_b": "United States",
+      "pct_a": 34.5,
+      "pct_b": 65.5
+    },
+    "Ecuador|Egypt": {
+      "team_a": "Ecuador",
+      "team_b": "Egypt",
+      "pct_a": 67.8,
+      "pct_b": 32.2
+    },
+    "Ecuador|England": {
+      "team_a": "Ecuador",
+      "team_b": "England",
+      "pct_a": 33.2,
+      "pct_b": 66.8
+    },
+    "Ecuador|France": {
+      "team_a": "Ecuador",
+      "team_b": "France",
+      "pct_a": 24.4,
+      "pct_b": 75.6
+    },
+    "Ecuador|Germany": {
+      "team_a": "Ecuador",
+      "team_b": "Germany",
+      "pct_a": 33.8,
+      "pct_b": 66.2
+    },
+    "Ecuador|Ghana": {
+      "team_a": "Ecuador",
+      "team_b": "Ghana",
+      "pct_a": 84.3,
+      "pct_b": 15.7
+    },
+    "Ecuador|Ivory Coast": {
+      "team_a": "Ecuador",
+      "team_b": "Ivory Coast",
+      "pct_a": 57.1,
+      "pct_b": 42.9
+    },
+    "Ecuador|Japan": {
+      "team_a": "Ecuador",
+      "team_b": "Japan",
+      "pct_a": 35.4,
+      "pct_b": 64.6
+    },
+    "Ecuador|Mexico": {
+      "team_a": "Ecuador",
+      "team_b": "Mexico",
+      "pct_a": 42.3,
+      "pct_b": 57.7
+    },
+    "Ecuador|Morocco": {
+      "team_a": "Ecuador",
+      "team_b": "Morocco",
+      "pct_a": 41.9,
+      "pct_b": 58.1
+    },
+    "Ecuador|Netherlands": {
+      "team_a": "Ecuador",
+      "team_b": "Netherlands",
+      "pct_a": 39.5,
+      "pct_b": 60.5
+    },
+    "Ecuador|Norway": {
+      "team_a": "Ecuador",
+      "team_b": "Norway",
+      "pct_a": 60.1,
+      "pct_b": 39.9
+    },
+    "Ecuador|Paraguay": {
+      "team_a": "Ecuador",
+      "team_b": "Paraguay",
+      "pct_a": 63.5,
+      "pct_b": 36.5
+    },
+    "Ecuador|Portugal": {
+      "team_a": "Ecuador",
+      "team_b": "Portugal",
+      "pct_a": 52.2,
+      "pct_b": 47.8
+    },
+    "Ecuador|Senegal": {
+      "team_a": "Ecuador",
+      "team_b": "Senegal",
+      "pct_a": 57.6,
+      "pct_b": 42.4
+    },
+    "Ecuador|South Africa": {
+      "team_a": "Ecuador",
+      "team_b": "South Africa",
+      "pct_a": 79.3,
+      "pct_b": 20.7
+    },
+    "Ecuador|Spain": {
+      "team_a": "Ecuador",
+      "team_b": "Spain",
+      "pct_a": 20.9,
+      "pct_b": 79.1
+    },
+    "Ecuador|Sweden": {
+      "team_a": "Ecuador",
+      "team_b": "Sweden",
+      "pct_a": 75.2,
+      "pct_b": 24.8
+    },
+    "Ecuador|Switzerland": {
+      "team_a": "Ecuador",
+      "team_b": "Switzerland",
+      "pct_a": 54.9,
+      "pct_b": 45.1
+    },
+    "Ecuador|United States": {
+      "team_a": "Ecuador",
+      "team_b": "United States",
+      "pct_a": 63.3,
+      "pct_b": 36.7
+    },
+    "Egypt|England": {
+      "team_a": "Egypt",
+      "team_b": "England",
+      "pct_a": 20.2,
+      "pct_b": 79.8
+    },
+    "Egypt|France": {
+      "team_a": "Egypt",
+      "team_b": "France",
+      "pct_a": 14.6,
+      "pct_b": 85.4
+    },
+    "Egypt|Germany": {
+      "team_a": "Egypt",
+      "team_b": "Germany",
+      "pct_a": 23.6,
+      "pct_b": 76.4
+    },
+    "Egypt|Ghana": {
+      "team_a": "Egypt",
+      "team_b": "Ghana",
+      "pct_a": 71.7,
+      "pct_b": 28.3
+    },
+    "Egypt|Ivory Coast": {
+      "team_a": "Egypt",
+      "team_b": "Ivory Coast",
+      "pct_a": 42.5,
+      "pct_b": 57.5
+    },
+    "Egypt|Japan": {
+      "team_a": "Egypt",
+      "team_b": "Japan",
+      "pct_a": 20.3,
+      "pct_b": 79.7
+    },
+    "Egypt|Mexico": {
+      "team_a": "Egypt",
+      "team_b": "Mexico",
+      "pct_a": 25.8,
+      "pct_b": 74.2
+    },
+    "Egypt|Morocco": {
+      "team_a": "Egypt",
+      "team_b": "Morocco",
+      "pct_a": 28.6,
+      "pct_b": 71.4
+    },
+    "Egypt|Netherlands": {
+      "team_a": "Egypt",
+      "team_b": "Netherlands",
+      "pct_a": 23.5,
+      "pct_b": 76.5
+    },
+    "Egypt|Norway": {
+      "team_a": "Egypt",
+      "team_b": "Norway",
+      "pct_a": 34.5,
+      "pct_b": 65.5
+    },
+    "Egypt|Paraguay": {
+      "team_a": "Egypt",
+      "team_b": "Paraguay",
+      "pct_a": 48.4,
+      "pct_b": 51.6
+    },
+    "Egypt|Portugal": {
+      "team_a": "Egypt",
+      "team_b": "Portugal",
+      "pct_a": 17.1,
+      "pct_b": 82.9
+    },
+    "Egypt|Senegal": {
+      "team_a": "Egypt",
+      "team_b": "Senegal",
+      "pct_a": 43.0,
+      "pct_b": 57.0
+    },
+    "Egypt|South Africa": {
+      "team_a": "Egypt",
+      "team_b": "South Africa",
+      "pct_a": 70.9,
+      "pct_b": 29.1
+    },
+    "Egypt|Spain": {
+      "team_a": "Egypt",
+      "team_b": "Spain",
+      "pct_a": 16.2,
+      "pct_b": 83.8
+    },
+    "Egypt|Sweden": {
+      "team_a": "Egypt",
+      "team_b": "Sweden",
+      "pct_a": 71.4,
+      "pct_b": 28.6
+    },
+    "Egypt|Switzerland": {
+      "team_a": "Egypt",
+      "team_b": "Switzerland",
+      "pct_a": 37.7,
+      "pct_b": 62.3
+    },
+    "Egypt|United States": {
+      "team_a": "Egypt",
+      "team_b": "United States",
+      "pct_a": 45.0,
+      "pct_b": 55.0
+    },
+    "England|France": {
+      "team_a": "England",
+      "team_b": "France",
+      "pct_a": 37.0,
+      "pct_b": 63.0
+    },
+    "England|Germany": {
+      "team_a": "England",
+      "team_b": "Germany",
+      "pct_a": 54.8,
+      "pct_b": 45.2
+    },
+    "England|Ghana": {
+      "team_a": "England",
+      "team_b": "Ghana",
+      "pct_a": 81.9,
+      "pct_b": 18.1
+    },
+    "England|Ivory Coast": {
+      "team_a": "England",
+      "team_b": "Ivory Coast",
+      "pct_a": 80.0,
+      "pct_b": 20.0
+    },
+    "England|Japan": {
+      "team_a": "England",
+      "team_b": "Japan",
+      "pct_a": 59.0,
+      "pct_b": 41.0
+    },
+    "England|Mexico": {
+      "team_a": "England",
+      "team_b": "Mexico",
+      "pct_a": 70.0,
+      "pct_b": 30.0
+    },
+    "England|Morocco": {
+      "team_a": "England",
+      "team_b": "Morocco",
+      "pct_a": 70.0,
+      "pct_b": 30.0
+    },
+    "England|Netherlands": {
+      "team_a": "England",
+      "team_b": "Netherlands",
+      "pct_a": 53.8,
+      "pct_b": 46.2
+    },
+    "England|Norway": {
+      "team_a": "England",
+      "team_b": "Norway",
+      "pct_a": 67.0,
+      "pct_b": 33.0
+    },
+    "England|Paraguay": {
+      "team_a": "England",
+      "team_b": "Paraguay",
+      "pct_a": 81.2,
+      "pct_b": 18.8
+    },
+    "England|Portugal": {
+      "team_a": "England",
+      "team_b": "Portugal",
+      "pct_a": 43.8,
+      "pct_b": 56.2
+    },
+    "England|Senegal": {
+      "team_a": "England",
+      "team_b": "Senegal",
+      "pct_a": 72.7,
+      "pct_b": 27.3
+    },
+    "England|South Africa": {
+      "team_a": "England",
+      "team_b": "South Africa",
+      "pct_a": 93.3,
+      "pct_b": 6.7
+    },
+    "England|Spain": {
+      "team_a": "England",
+      "team_b": "Spain",
+      "pct_a": 33.3,
+      "pct_b": 66.7
+    },
+    "England|Sweden": {
+      "team_a": "England",
+      "team_b": "Sweden",
+      "pct_a": 77.7,
+      "pct_b": 22.3
+    },
+    "England|Switzerland": {
+      "team_a": "England",
+      "team_b": "Switzerland",
+      "pct_a": 70.3,
+      "pct_b": 29.7
+    },
+    "England|United States": {
+      "team_a": "England",
+      "team_b": "United States",
+      "pct_a": 79.7,
+      "pct_b": 20.3
+    },
+    "France|Germany": {
+      "team_a": "France",
+      "team_b": "Germany",
+      "pct_a": 68.3,
+      "pct_b": 31.7
+    },
+    "France|Ghana": {
+      "team_a": "France",
+      "team_b": "Ghana",
+      "pct_a": 89.4,
+      "pct_b": 10.6
+    },
+    "France|Ivory Coast": {
+      "team_a": "France",
+      "team_b": "Ivory Coast",
+      "pct_a": 76.4,
+      "pct_b": 23.6
+    },
+    "France|Japan": {
+      "team_a": "France",
+      "team_b": "Japan",
+      "pct_a": 71.0,
+      "pct_b": 29.0
+    },
+    "France|Mexico": {
+      "team_a": "France",
+      "team_b": "Mexico",
+      "pct_a": 74.4,
+      "pct_b": 25.6
+    },
+    "France|Morocco": {
+      "team_a": "France",
+      "team_b": "Morocco",
+      "pct_a": 70.6,
+      "pct_b": 29.4
+    },
+    "France|Netherlands": {
+      "team_a": "France",
+      "team_b": "Netherlands",
+      "pct_a": 69.5,
+      "pct_b": 30.5
+    },
+    "France|Norway": {
+      "team_a": "France",
+      "team_b": "Norway",
+      "pct_a": 74.9,
+      "pct_b": 25.1
+    },
+    "France|Paraguay": {
+      "team_a": "France",
+      "team_b": "Paraguay",
+      "pct_a": 83.6,
+      "pct_b": 16.4
+    },
+    "France|Portugal": {
+      "team_a": "France",
+      "team_b": "Portugal",
+      "pct_a": 65.1,
+      "pct_b": 34.9
+    },
+    "France|Senegal": {
+      "team_a": "France",
+      "team_b": "Senegal",
+      "pct_a": 83.0,
+      "pct_b": 17.0
+    },
+    "France|South Africa": {
+      "team_a": "France",
+      "team_b": "South Africa",
+      "pct_a": 92.1,
+      "pct_b": 7.9
+    },
+    "France|Spain": {
+      "team_a": "France",
+      "team_b": "Spain",
+      "pct_a": 45.3,
+      "pct_b": 54.7
+    },
+    "France|Sweden": {
+      "team_a": "France",
+      "team_b": "Sweden",
+      "pct_a": 84.5,
+      "pct_b": 15.5
+    },
+    "France|Switzerland": {
+      "team_a": "France",
+      "team_b": "Switzerland",
+      "pct_a": 74.1,
+      "pct_b": 25.9
+    },
+    "France|United States": {
+      "team_a": "France",
+      "team_b": "United States",
+      "pct_a": 83.7,
+      "pct_b": 16.3
+    },
+    "Germany|Ghana": {
+      "team_a": "Germany",
+      "team_b": "Ghana",
+      "pct_a": 92.7,
+      "pct_b": 7.3
+    },
+    "Germany|Ivory Coast": {
+      "team_a": "Germany",
+      "team_b": "Ivory Coast",
+      "pct_a": 73.1,
+      "pct_b": 26.9
+    },
+    "Germany|Japan": {
+      "team_a": "Germany",
+      "team_b": "Japan",
+      "pct_a": 46.1,
+      "pct_b": 53.9
+    },
+    "Germany|Mexico": {
+      "team_a": "Germany",
+      "team_b": "Mexico",
+      "pct_a": 59.2,
+      "pct_b": 40.8
+    },
+    "Germany|Morocco": {
+      "team_a": "Germany",
+      "team_b": "Morocco",
+      "pct_a": 58.4,
+      "pct_b": 41.6
+    },
+    "Germany|Netherlands": {
+      "team_a": "Germany",
+      "team_b": "Netherlands",
+      "pct_a": 50.8,
+      "pct_b": 49.2
+    },
+    "Germany|Norway": {
+      "team_a": "Germany",
+      "team_b": "Norway",
+      "pct_a": 72.5,
+      "pct_b": 27.5
+    },
+    "Germany|Paraguay": {
+      "team_a": "Germany",
+      "team_b": "Paraguay",
+      "pct_a": 73.1,
+      "pct_b": 26.9
+    },
+    "Germany|Portugal": {
+      "team_a": "Germany",
+      "team_b": "Portugal",
+      "pct_a": 53.8,
+      "pct_b": 46.2
+    },
+    "Germany|Senegal": {
+      "team_a": "Germany",
+      "team_b": "Senegal",
+      "pct_a": 75.4,
+      "pct_b": 24.6
+    },
+    "Germany|South Africa": {
+      "team_a": "Germany",
+      "team_b": "South Africa",
+      "pct_a": 92.7,
+      "pct_b": 7.3
+    },
+    "Germany|Spain": {
+      "team_a": "Germany",
+      "team_b": "Spain",
+      "pct_a": 29.1,
+      "pct_b": 70.9
+    },
+    "Germany|Sweden": {
+      "team_a": "Germany",
+      "team_b": "Sweden",
+      "pct_a": 88.9,
+      "pct_b": 11.1
+    },
+    "Germany|Switzerland": {
+      "team_a": "Germany",
+      "team_b": "Switzerland",
+      "pct_a": 68.7,
+      "pct_b": 31.3
+    },
+    "Germany|United States": {
+      "team_a": "Germany",
+      "team_b": "United States",
+      "pct_a": 75.7,
+      "pct_b": 24.3
+    },
+    "Ghana|Ivory Coast": {
+      "team_a": "Ghana",
+      "team_b": "Ivory Coast",
+      "pct_a": 24.7,
+      "pct_b": 75.3
+    },
+    "Ghana|Japan": {
+      "team_a": "Ghana",
+      "team_b": "Japan",
+      "pct_a": 17.2,
+      "pct_b": 82.8
+    },
+    "Ghana|Mexico": {
+      "team_a": "Ghana",
+      "team_b": "Mexico",
+      "pct_a": 11.3,
+      "pct_b": 88.7
+    },
+    "Ghana|Morocco": {
+      "team_a": "Ghana",
+      "team_b": "Morocco",
+      "pct_a": 17.5,
+      "pct_b": 82.5
+    },
+    "Ghana|Netherlands": {
+      "team_a": "Ghana",
+      "team_b": "Netherlands",
+      "pct_a": 14.6,
+      "pct_b": 85.4
+    },
+    "Ghana|Norway": {
+      "team_a": "Ghana",
+      "team_b": "Norway",
+      "pct_a": 16.6,
+      "pct_b": 83.4
+    },
+    "Ghana|Paraguay": {
+      "team_a": "Ghana",
+      "team_b": "Paraguay",
+      "pct_a": 21.0,
+      "pct_b": 79.0
+    },
+    "Ghana|Portugal": {
+      "team_a": "Ghana",
+      "team_b": "Portugal",
+      "pct_a": 9.1,
+      "pct_b": 90.9
+    },
+    "Ghana|Senegal": {
+      "team_a": "Ghana",
+      "team_b": "Senegal",
+      "pct_a": 26.8,
+      "pct_b": 73.2
+    },
+    "Ghana|South Africa": {
+      "team_a": "Ghana",
+      "team_b": "South Africa",
+      "pct_a": 47.8,
+      "pct_b": 52.2
+    },
+    "Ghana|Spain": {
+      "team_a": "Ghana",
+      "team_b": "Spain",
+      "pct_a": 10.3,
+      "pct_b": 89.7
+    },
+    "Ghana|Sweden": {
+      "team_a": "Ghana",
+      "team_b": "Sweden",
+      "pct_a": 34.6,
+      "pct_b": 65.4
+    },
+    "Ghana|Switzerland": {
+      "team_a": "Ghana",
+      "team_b": "Switzerland",
+      "pct_a": 36.1,
+      "pct_b": 63.9
+    },
+    "Ghana|United States": {
+      "team_a": "Ghana",
+      "team_b": "United States",
+      "pct_a": 24.6,
+      "pct_b": 75.4
+    },
+    "Ivory Coast|Japan": {
+      "team_a": "Ivory Coast",
+      "team_b": "Japan",
+      "pct_a": 29.8,
+      "pct_b": 70.2
+    },
+    "Ivory Coast|Mexico": {
+      "team_a": "Ivory Coast",
+      "team_b": "Mexico",
+      "pct_a": 30.1,
+      "pct_b": 69.9
+    },
+    "Ivory Coast|Morocco": {
+      "team_a": "Ivory Coast",
+      "team_b": "Morocco",
+      "pct_a": 32.1,
+      "pct_b": 67.9
+    },
+    "Ivory Coast|Netherlands": {
+      "team_a": "Ivory Coast",
+      "team_b": "Netherlands",
+      "pct_a": 24.9,
+      "pct_b": 75.1
+    },
+    "Ivory Coast|Norway": {
+      "team_a": "Ivory Coast",
+      "team_b": "Norway",
+      "pct_a": 43.4,
+      "pct_b": 56.6
+    },
+    "Ivory Coast|Paraguay": {
+      "team_a": "Ivory Coast",
+      "team_b": "Paraguay",
+      "pct_a": 44.4,
+      "pct_b": 55.6
+    },
+    "Ivory Coast|Portugal": {
+      "team_a": "Ivory Coast",
+      "team_b": "Portugal",
+      "pct_a": 20.8,
+      "pct_b": 79.2
+    },
+    "Ivory Coast|Senegal": {
+      "team_a": "Ivory Coast",
+      "team_b": "Senegal",
+      "pct_a": 48.6,
+      "pct_b": 51.4
+    },
+    "Ivory Coast|South Africa": {
+      "team_a": "Ivory Coast",
+      "team_b": "South Africa",
+      "pct_a": 70.0,
+      "pct_b": 30.0
+    },
+    "Ivory Coast|Spain": {
+      "team_a": "Ivory Coast",
+      "team_b": "Spain",
+      "pct_a": 20.5,
+      "pct_b": 79.5
+    },
+    "Ivory Coast|Sweden": {
+      "team_a": "Ivory Coast",
+      "team_b": "Sweden",
+      "pct_a": 66.1,
+      "pct_b": 33.9
+    },
+    "Ivory Coast|Switzerland": {
+      "team_a": "Ivory Coast",
+      "team_b": "Switzerland",
+      "pct_a": 34.0,
+      "pct_b": 66.0
+    },
+    "Ivory Coast|United States": {
+      "team_a": "Ivory Coast",
+      "team_b": "United States",
+      "pct_a": 44.6,
+      "pct_b": 55.4
+    },
+    "Japan|Mexico": {
+      "team_a": "Japan",
+      "team_b": "Mexico",
+      "pct_a": 52.7,
+      "pct_b": 47.3
+    },
+    "Japan|Morocco": {
+      "team_a": "Japan",
+      "team_b": "Morocco",
+      "pct_a": 55.8,
+      "pct_b": 44.2
+    },
+    "Japan|Netherlands": {
+      "team_a": "Japan",
+      "team_b": "Netherlands",
+      "pct_a": 46.2,
+      "pct_b": 53.8
+    },
+    "Japan|Norway": {
+      "team_a": "Japan",
+      "team_b": "Norway",
+      "pct_a": 64.9,
+      "pct_b": 35.1
+    },
+    "Japan|Paraguay": {
+      "team_a": "Japan",
+      "team_b": "Paraguay",
+      "pct_a": 71.2,
+      "pct_b": 28.8
+    },
+    "Japan|Portugal": {
+      "team_a": "Japan",
+      "team_b": "Portugal",
+      "pct_a": 43.4,
+      "pct_b": 56.6
+    },
+    "Japan|Senegal": {
+      "team_a": "Japan",
+      "team_b": "Senegal",
+      "pct_a": 66.6,
+      "pct_b": 33.4
+    },
+    "Japan|South Africa": {
+      "team_a": "Japan",
+      "team_b": "South Africa",
+      "pct_a": 81.5,
+      "pct_b": 18.5
+    },
+    "Japan|Spain": {
+      "team_a": "Japan",
+      "team_b": "Spain",
+      "pct_a": 36.2,
+      "pct_b": 63.8
+    },
+    "Japan|Sweden": {
+      "team_a": "Japan",
+      "team_b": "Sweden",
+      "pct_a": 79.4,
+      "pct_b": 20.6
+    },
+    "Japan|Switzerland": {
+      "team_a": "Japan",
+      "team_b": "Switzerland",
+      "pct_a": 62.0,
+      "pct_b": 38.0
+    },
+    "Japan|United States": {
+      "team_a": "Japan",
+      "team_b": "United States",
+      "pct_a": 72.8,
+      "pct_b": 27.2
+    },
+    "Mexico|Morocco": {
+      "team_a": "Mexico",
+      "team_b": "Morocco",
+      "pct_a": 51.8,
+      "pct_b": 48.2
+    },
+    "Mexico|Netherlands": {
+      "team_a": "Mexico",
+      "team_b": "Netherlands",
+      "pct_a": 45.6,
+      "pct_b": 54.4
+    },
+    "Mexico|Norway": {
+      "team_a": "Mexico",
+      "team_b": "Norway",
+      "pct_a": 58.4,
+      "pct_b": 41.6
+    },
+    "Mexico|Paraguay": {
+      "team_a": "Mexico",
+      "team_b": "Paraguay",
+      "pct_a": 69.5,
+      "pct_b": 30.5
+    },
+    "Mexico|Portugal": {
+      "team_a": "Mexico",
+      "team_b": "Portugal",
+      "pct_a": 32.0,
+      "pct_b": 68.0
+    },
+    "Mexico|Senegal": {
+      "team_a": "Mexico",
+      "team_b": "Senegal",
+      "pct_a": 75.1,
+      "pct_b": 24.9
+    },
+    "Mexico|South Africa": {
+      "team_a": "Mexico",
+      "team_b": "South Africa",
+      "pct_a": 90.5,
+      "pct_b": 9.5
+    },
+    "Mexico|Spain": {
+      "team_a": "Mexico",
+      "team_b": "Spain",
+      "pct_a": 23.8,
+      "pct_b": 76.2
+    },
+    "Mexico|Sweden": {
+      "team_a": "Mexico",
+      "team_b": "Sweden",
+      "pct_a": 70.6,
+      "pct_b": 29.4
+    },
+    "Mexico|Switzerland": {
+      "team_a": "Mexico",
+      "team_b": "Switzerland",
+      "pct_a": 57.5,
+      "pct_b": 42.5
+    },
+    "Mexico|United States": {
+      "team_a": "Mexico",
+      "team_b": "United States",
+      "pct_a": 67.2,
+      "pct_b": 32.8
+    },
+    "Morocco|Netherlands": {
+      "team_a": "Morocco",
+      "team_b": "Netherlands",
+      "pct_a": 47.5,
+      "pct_b": 52.5
+    },
+    "Morocco|Norway": {
+      "team_a": "Morocco",
+      "team_b": "Norway",
+      "pct_a": 57.9,
+      "pct_b": 42.1
+    },
+    "Morocco|Paraguay": {
+      "team_a": "Morocco",
+      "team_b": "Paraguay",
+      "pct_a": 72.0,
+      "pct_b": 28.0
+    },
+    "Morocco|Portugal": {
+      "team_a": "Morocco",
+      "team_b": "Portugal",
+      "pct_a": 38.8,
+      "pct_b": 61.2
+    },
+    "Morocco|Senegal": {
+      "team_a": "Morocco",
+      "team_b": "Senegal",
+      "pct_a": 72.2,
+      "pct_b": 27.8
+    },
+    "Morocco|South Africa": {
+      "team_a": "Morocco",
+      "team_b": "South Africa",
+      "pct_a": 80.4,
+      "pct_b": 19.6
+    },
+    "Morocco|Spain": {
+      "team_a": "Morocco",
+      "team_b": "Spain",
+      "pct_a": 23.8,
+      "pct_b": 76.2
+    },
+    "Morocco|Sweden": {
+      "team_a": "Morocco",
+      "team_b": "Sweden",
+      "pct_a": 83.2,
+      "pct_b": 16.8
+    },
+    "Morocco|Switzerland": {
+      "team_a": "Morocco",
+      "team_b": "Switzerland",
+      "pct_a": 72.3,
+      "pct_b": 27.7
+    },
+    "Morocco|United States": {
+      "team_a": "Morocco",
+      "team_b": "United States",
+      "pct_a": 74.5,
+      "pct_b": 25.5
+    },
+    "Netherlands|Norway": {
+      "team_a": "Netherlands",
+      "team_b": "Norway",
+      "pct_a": 68.1,
+      "pct_b": 31.9
+    },
+    "Netherlands|Paraguay": {
+      "team_a": "Netherlands",
+      "team_b": "Paraguay",
+      "pct_a": 69.0,
+      "pct_b": 31.0
+    },
+    "Netherlands|Portugal": {
+      "team_a": "Netherlands",
+      "team_b": "Portugal",
+      "pct_a": 38.4,
+      "pct_b": 61.6
+    },
+    "Netherlands|Senegal": {
+      "team_a": "Netherlands",
+      "team_b": "Senegal",
+      "pct_a": 75.9,
+      "pct_b": 24.1
+    },
+    "Netherlands|South Africa": {
+      "team_a": "Netherlands",
+      "team_b": "South Africa",
+      "pct_a": 91.3,
+      "pct_b": 8.7
+    },
+    "Netherlands|Spain": {
+      "team_a": "Netherlands",
+      "team_b": "Spain",
+      "pct_a": 30.4,
+      "pct_b": 69.6
+    },
+    "Netherlands|Sweden": {
+      "team_a": "Netherlands",
+      "team_b": "Sweden",
+      "pct_a": 82.1,
+      "pct_b": 17.9
+    },
+    "Netherlands|Switzerland": {
+      "team_a": "Netherlands",
+      "team_b": "Switzerland",
+      "pct_a": 59.4,
+      "pct_b": 40.6
+    },
+    "Netherlands|United States": {
+      "team_a": "Netherlands",
+      "team_b": "United States",
+      "pct_a": 77.6,
+      "pct_b": 22.4
+    },
+    "Norway|Paraguay": {
+      "team_a": "Norway",
+      "team_b": "Paraguay",
+      "pct_a": 56.1,
+      "pct_b": 43.9
+    },
+    "Norway|Portugal": {
+      "team_a": "Norway",
+      "team_b": "Portugal",
+      "pct_a": 28.2,
+      "pct_b": 71.8
+    },
+    "Norway|Senegal": {
+      "team_a": "Norway",
+      "team_b": "Senegal",
+      "pct_a": 56.9,
+      "pct_b": 43.1
+    },
+    "Norway|South Africa": {
+      "team_a": "Norway",
+      "team_b": "South Africa",
+      "pct_a": 85.5,
+      "pct_b": 14.5
+    },
+    "Norway|Spain": {
+      "team_a": "Norway",
+      "team_b": "Spain",
+      "pct_a": 21.4,
+      "pct_b": 78.6
+    },
+    "Norway|Sweden": {
+      "team_a": "Norway",
+      "team_b": "Sweden",
+      "pct_a": 66.1,
+      "pct_b": 33.9
+    },
+    "Norway|Switzerland": {
+      "team_a": "Norway",
+      "team_b": "Switzerland",
+      "pct_a": 47.6,
+      "pct_b": 52.4
+    },
+    "Norway|United States": {
+      "team_a": "Norway",
+      "team_b": "United States",
+      "pct_a": 57.2,
+      "pct_b": 42.8
+    },
+    "Paraguay|Portugal": {
+      "team_a": "Paraguay",
+      "team_b": "Portugal",
+      "pct_a": 17.2,
+      "pct_b": 82.8
+    },
+    "Paraguay|Senegal": {
+      "team_a": "Paraguay",
+      "team_b": "Senegal",
+      "pct_a": 49.1,
+      "pct_b": 50.9
+    },
+    "Paraguay|South Africa": {
+      "team_a": "Paraguay",
+      "team_b": "South Africa",
+      "pct_a": 70.8,
+      "pct_b": 29.2
+    },
+    "Paraguay|Spain": {
+      "team_a": "Paraguay",
+      "team_b": "Spain",
+      "pct_a": 17.5,
+      "pct_b": 82.5
+    },
+    "Paraguay|Sweden": {
+      "team_a": "Paraguay",
+      "team_b": "Sweden",
+      "pct_a": 63.3,
+      "pct_b": 36.7
+    },
+    "Paraguay|Switzerland": {
+      "team_a": "Paraguay",
+      "team_b": "Switzerland",
+      "pct_a": 37.4,
+      "pct_b": 62.6
+    },
+    "Paraguay|United States": {
+      "team_a": "Paraguay",
+      "team_b": "United States",
+      "pct_a": 46.1,
+      "pct_b": 53.9
+    },
+    "Portugal|Senegal": {
+      "team_a": "Portugal",
+      "team_b": "Senegal",
+      "pct_a": 76.8,
+      "pct_b": 23.2
+    },
+    "Portugal|South Africa": {
+      "team_a": "Portugal",
+      "team_b": "South Africa",
+      "pct_a": 94.9,
+      "pct_b": 5.1
+    },
+    "Portugal|Spain": {
+      "team_a": "Portugal",
+      "team_b": "Spain",
+      "pct_a": 30.0,
+      "pct_b": 70.0
+    },
+    "Portugal|Sweden": {
+      "team_a": "Portugal",
+      "team_b": "Sweden",
+      "pct_a": 84.2,
+      "pct_b": 15.8
+    },
+    "Portugal|Switzerland": {
+      "team_a": "Portugal",
+      "team_b": "Switzerland",
+      "pct_a": 70.2,
+      "pct_b": 29.8
+    },
+    "Portugal|United States": {
+      "team_a": "Portugal",
+      "team_b": "United States",
+      "pct_a": 77.8,
+      "pct_b": 22.2
+    },
+    "Senegal|South Africa": {
+      "team_a": "Senegal",
+      "team_b": "South Africa",
+      "pct_a": 73.9,
+      "pct_b": 26.1
+    },
+    "Senegal|Spain": {
+      "team_a": "Senegal",
+      "team_b": "Spain",
+      "pct_a": 18.5,
+      "pct_b": 81.5
+    },
+    "Senegal|Sweden": {
+      "team_a": "Senegal",
+      "team_b": "Sweden",
+      "pct_a": 73.9,
+      "pct_b": 26.1
+    },
+    "Senegal|Switzerland": {
+      "team_a": "Senegal",
+      "team_b": "Switzerland",
+      "pct_a": 44.1,
+      "pct_b": 55.9
+    },
+    "Senegal|United States": {
+      "team_a": "Senegal",
+      "team_b": "United States",
+      "pct_a": 52.8,
+      "pct_b": 47.2
+    },
+    "South Africa|Spain": {
+      "team_a": "South Africa",
+      "team_b": "Spain",
+      "pct_a": 12.2,
+      "pct_b": 87.8
+    },
+    "South Africa|Sweden": {
+      "team_a": "South Africa",
+      "team_b": "Sweden",
+      "pct_a": 34.6,
+      "pct_b": 65.4
+    },
+    "South Africa|Switzerland": {
+      "team_a": "South Africa",
+      "team_b": "Switzerland",
+      "pct_a": 18.3,
+      "pct_b": 81.7
+    },
+    "South Africa|United States": {
+      "team_a": "South Africa",
+      "team_b": "United States",
+      "pct_a": 19.8,
+      "pct_b": 80.2
+    },
+    "Spain|Sweden": {
+      "team_a": "Spain",
+      "team_b": "Sweden",
+      "pct_a": 84.9,
+      "pct_b": 15.1
+    },
+    "Spain|Switzerland": {
+      "team_a": "Spain",
+      "team_b": "Switzerland",
+      "pct_a": 76.4,
+      "pct_b": 23.6
+    },
+    "Spain|United States": {
+      "team_a": "Spain",
+      "team_b": "United States",
+      "pct_a": 84.6,
+      "pct_b": 15.4
+    },
+    "Sweden|Switzerland": {
+      "team_a": "Sweden",
+      "team_b": "Switzerland",
+      "pct_a": 29.3,
+      "pct_b": 70.7
+    },
+    "Sweden|United States": {
+      "team_a": "Sweden",
+      "team_b": "United States",
+      "pct_a": 38.3,
+      "pct_b": 61.7
+    },
+    "Switzerland|United States": {
+      "team_a": "Switzerland",
+      "team_b": "United States",
+      "pct_a": 64.2,
+      "pct_b": 35.8
+    }
+  }
+}

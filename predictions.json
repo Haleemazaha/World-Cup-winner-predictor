@@ -1,0 +1,327 @@
+{
+  "n_simulations": 10000,
+  "bracket": [
+    {
+      "home": "South Africa",
+      "away": "Canada"
+    },
+    {
+      "home": "Brazil",
+      "away": "Japan"
+    },
+    {
+      "home": "Germany",
+      "away": "Paraguay"
+    },
+    {
+      "home": "Netherlands",
+      "away": "Morocco"
+    },
+    {
+      "home": "Ivory Coast",
+      "away": "Norway"
+    },
+    {
+      "home": "France",
+      "away": "Sweden"
+    },
+    {
+      "home": "Mexico",
+      "away": "Ecuador"
+    },
+    {
+      "home": "England",
+      "away": "DR Congo"
+    },
+    {
+      "home": "Belgium",
+      "away": "Senegal"
+    },
+    {
+      "home": "United States",
+      "away": "Bosnia and Herzegovina"
+    },
+    {
+      "home": "Spain",
+      "away": "Austria"
+    },
+    {
+      "home": "Portugal",
+      "away": "Croatia"
+    },
+    {
+      "home": "Switzerland",
+      "away": "Algeria"
+    },
+    {
+      "home": "Australia",
+      "away": "Egypt"
+    },
+    {
+      "home": "Argentina",
+      "away": "Cape Verde"
+    },
+    {
+      "home": "Colombia",
+      "away": "Ghana"
+    }
+  ],
+  "results": [
+    {
+      "team": "Argentina",
+      "reach_r16_pct": 91.6,
+      "reach_qf_pct": 65.6,
+      "reach_sf_pct": 57.0,
+      "reach_final_pct": 36.6,
+      "win_title_pct": 25.6
+    },
+    {
+      "team": "Spain",
+      "reach_r16_pct": 81.2,
+      "reach_qf_pct": 52.3,
+      "reach_sf_pct": 40.6,
+      "reach_final_pct": 25.2,
+      "win_title_pct": 15.5
+    },
+    {
+      "team": "France",
+      "reach_r16_pct": 85.5,
+      "reach_qf_pct": 64.8,
+      "reach_sf_pct": 44.0,
+      "reach_final_pct": 27.7,
+      "win_title_pct": 14.2
+    },
+    {
+      "team": "Brazil",
+      "reach_r16_pct": 71.3,
+      "reach_qf_pct": 62.3,
+      "reach_sf_pct": 42.5,
+      "reach_final_pct": 24.8,
+      "win_title_pct": 12.7
+    },
+    {
+      "team": "Colombia",
+      "reach_r16_pct": 89.2,
+      "reach_qf_pct": 32.2,
+      "reach_sf_pct": 22.9,
+      "reach_final_pct": 12.6,
+      "win_title_pct": 6.2
+    },
+    {
+      "team": "England",
+      "reach_r16_pct": 84.9,
+      "reach_qf_pct": 57.2,
+      "reach_sf_pct": 29.0,
+      "reach_final_pct": 14.4,
+      "win_title_pct": 5.3
+    },
+    {
+      "team": "Portugal",
+      "reach_r16_pct": 73.1,
+      "reach_qf_pct": 35.8,
+      "reach_sf_pct": 24.7,
+      "reach_final_pct": 10.0,
+      "win_title_pct": 4.9
+    },
+    {
+      "team": "Germany",
+      "reach_r16_pct": 72.3,
+      "reach_qf_pct": 38.5,
+      "reach_sf_pct": 17.1,
+      "reach_final_pct": 8.1,
+      "win_title_pct": 3.2
+    },
+    {
+      "team": "Netherlands",
+      "reach_r16_pct": 65.6,
+      "reach_qf_pct": 36.7,
+      "reach_sf_pct": 16.9,
+      "reach_final_pct": 7.7,
+      "win_title_pct": 2.4
+    },
+    {
+      "team": "Belgium",
+      "reach_r16_pct": 68.7,
+      "reach_qf_pct": 52.9,
+      "reach_sf_pct": 17.6,
+      "reach_final_pct": 5.5,
+      "win_title_pct": 2.2
+    },
+    {
+      "team": "Japan",
+      "reach_r16_pct": 28.7,
+      "reach_qf_pct": 21.4,
+      "reach_sf_pct": 10.5,
+      "reach_final_pct": 4.4,
+      "win_title_pct": 1.6
+    },
+    {
+      "team": "Mexico",
+      "reach_r16_pct": 56.6,
+      "reach_qf_pct": 23.5,
+      "reach_sf_pct": 8.6,
+      "reach_final_pct": 3.2,
+      "win_title_pct": 0.9
+    },
+    {
+      "team": "Morocco",
+      "reach_r16_pct": 34.4,
+      "reach_qf_pct": 17.6,
+      "reach_sf_pct": 7.0,
+      "reach_final_pct": 3.0,
+      "win_title_pct": 0.8
+    },
+    {
+      "team": "Algeria",
+      "reach_r16_pct": 51.5,
+      "reach_qf_pct": 33.7,
+      "reach_sf_pct": 8.1,
+      "reach_final_pct": 2.6,
+      "win_title_pct": 0.7
+    },
+    {
+      "team": "Ecuador",
+      "reach_r16_pct": 43.4,
+      "reach_qf_pct": 17.5,
+      "reach_sf_pct": 6.5,
+      "reach_final_pct": 2.1,
+      "win_title_pct": 0.7
+    },
+    {
+      "team": "Norway",
+      "reach_r16_pct": 56.7,
+      "reach_qf_pct": 16.9,
+      "reach_sf_pct": 6.0,
+      "reach_final_pct": 1.8,
+      "win_title_pct": 0.6
+    },
+    {
+      "team": "Switzerland",
+      "reach_r16_pct": 48.5,
+      "reach_qf_pct": 29.2,
+      "reach_sf_pct": 5.9,
+      "reach_final_pct": 1.9,
+      "win_title_pct": 0.5
+    },
+    {
+      "team": "Croatia",
+      "reach_r16_pct": 26.9,
+      "reach_qf_pct": 7.0,
+      "reach_sf_pct": 3.7,
+      "reach_final_pct": 1.2,
+      "win_title_pct": 0.4
+    },
+    {
+      "team": "Canada",
+      "reach_r16_pct": 63.5,
+      "reach_qf_pct": 13.7,
+      "reach_sf_pct": 4.0,
+      "reach_final_pct": 1.1,
+      "win_title_pct": 0.3
+    },
+    {
+      "team": "Ivory Coast",
+      "reach_r16_pct": 43.3,
+      "reach_qf_pct": 13.5,
+      "reach_sf_pct": 4.3,
+      "reach_final_pct": 1.0,
+      "win_title_pct": 0.2
+    },
+    {
+      "team": "Senegal",
+      "reach_r16_pct": 31.3,
+      "reach_qf_pct": 17.7,
+      "reach_sf_pct": 4.7,
+      "reach_final_pct": 1.0,
+      "win_title_pct": 0.2
+    },
+    {
+      "team": "United States",
+      "reach_r16_pct": 85.8,
+      "reach_qf_pct": 26.7,
+      "reach_sf_pct": 6.2,
+      "reach_final_pct": 1.4,
+      "win_title_pct": 0.2
+    },
+    {
+      "team": "Australia",
+      "reach_r16_pct": 56.5,
+      "reach_qf_pct": 22.8,
+      "reach_sf_pct": 3.8,
+      "reach_final_pct": 0.8,
+      "win_title_pct": 0.1
+    },
+    {
+      "team": "Egypt",
+      "reach_r16_pct": 43.5,
+      "reach_qf_pct": 14.2,
+      "reach_sf_pct": 1.9,
+      "reach_final_pct": 0.4,
+      "win_title_pct": 0.1
+    },
+    {
+      "team": "Austria",
+      "reach_r16_pct": 18.8,
+      "reach_qf_pct": 4.9,
+      "reach_sf_pct": 2.3,
+      "reach_final_pct": 0.7,
+      "win_title_pct": 0.1
+    },
+    {
+      "team": "Paraguay",
+      "reach_r16_pct": 27.7,
+      "reach_qf_pct": 7.2,
+      "reach_sf_pct": 1.8,
+      "reach_final_pct": 0.4,
+      "win_title_pct": 0.1
+    },
+    {
+      "team": "Sweden",
+      "reach_r16_pct": 14.5,
+      "reach_qf_pct": 4.8,
+      "reach_sf_pct": 1.2,
+      "reach_final_pct": 0.2,
+      "win_title_pct": 0.1
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "reach_r16_pct": 14.2,
+      "reach_qf_pct": 2.7,
+      "reach_sf_pct": 0.2,
+      "reach_final_pct": 0.0,
+      "win_title_pct": 0.0
+    },
+    {
+      "team": "Ghana",
+      "reach_r16_pct": 10.8,
+      "reach_qf_pct": 1.0,
+      "reach_sf_pct": 0.2,
+      "reach_final_pct": 0.0,
+      "win_title_pct": 0.0
+    },
+    {
+      "team": "DR Congo",
+      "reach_r16_pct": 15.1,
+      "reach_qf_pct": 1.7,
+      "reach_sf_pct": 0.3,
+      "reach_final_pct": 0.0,
+      "win_title_pct": 0.0
+    },
+    {
+      "team": "Cape Verde",
+      "reach_r16_pct": 8.4,
+      "reach_qf_pct": 1.2,
+      "reach_sf_pct": 0.3,
+      "reach_final_pct": 0.0,
+      "win_title_pct": 0.0
+    },
+    {
+      "team": "South Africa",
+      "reach_r16_pct": 36.5,
+      "reach_qf_pct": 2.7,
+      "reach_sf_pct": 0.4,
+      "reach_final_pct": 0.1,
+      "win_title_pct": 0.0
+    }
+  ]
+}
