@@ -4,7 +4,7 @@
 
 A machine learning project that predicts outcomes for the 2026 FIFA World Cup knockout stage, using historical match data, Elo ratings, and a Random Forest classifier — visualized through an interactive bracket website.
 
-**[Live Demo](#)** *(add your deployed link here once live)*
+**[Live Demo](#)** https://haleemazaha.github.io/World-Cup-winner-predictor/
 
 ![Status](https://img.shields.io/badge/status-complete-brightgreen) ![Python](https://img.shields.io/badge/python-3.9-blue) ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6-orange)
 
