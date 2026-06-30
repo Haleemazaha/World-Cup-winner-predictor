@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "home": "South Africa",
+      "away": "Canada",
+      "home_score": 0,
+      "away_score": 1,
+      "winner": "Canada",
+      "penalties": false
+    },
+    {
+      "home": "Brazil",
+      "away": "Japan",
+      "home_score": 2,
+      "away_score": 1,
+      "winner": "Brazil",
+      "penalties": false
+    },
+    {
+      "home": "Germany",
+      "away": "Paraguay",
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "Paraguay",
+      "penalties": true,
+      "penalty_score": "3-4"
+    },
+    {
+      "home": "Netherlands",
+      "away": "Morocco",
+      "home_score": 1,
+      "away_score": 1,
+      "winner": "Morocco",
+      "penalties": true,
+      "penalty_score": "2-3"
+    }
+  ]
+}
