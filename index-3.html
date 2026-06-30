@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Cup 2026 — Bracket Tracker & Predictor</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+
+  :root {
+    --bg-deep: #06140F;
+    --bg-panel: #0C2018;
+    --teal: #00C2A8;
+    --teal-bright: #2BEFCF;
+    --gold: #FFC23B;
+    --gold-bright: #FFD566;
+    --orange: #FF6B35;
+    --chalk: #F4F7F5;
+    --chalk-dim: #9FB3AA;
+    --line: rgba(244, 247, 245, 0.10);
+    --played: #4ADE80;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg-deep);
+    background-image:
+      radial-gradient(circle at 15% 0%, rgba(0,194,168,0.18), transparent 45%),
+      radial-gradient(circle at 90% 15%, rgba(255,194,59,0.10), transparent 40%),
+      radial-gradient(circle at 50% 100%, rgba(46,158,79,0.12), transparent 50%);
+    color: var(--chalk);
+    font-family: 'Archivo', sans-serif;
+    min-height: 100vh;
+    padding: 0 0 80px;
+  }
+
+  header {
+    text-align: center;
+    padding: 56px 24px 44px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 3px solid var(--teal);
+  }
+
+  header::before {
+    content: "⚽";
+    position: absolute;
+    font-size: 280px;
+    opacity: 0.04;
+    top: -60px;
+    right: -40px;
+    transform: rotate(15deg);
+  }
+
+  .badge-row { display: flex; justify-content: center; gap: 8px; margin-bottom: 20px; }
+
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--bg-deep);
+    background: var(--teal-bright);
+    padding: 6px 14px;
+    border-radius: 100px;
+  }
+
+  h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: clamp(38px, 6.5vw, 68px);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, var(--chalk) 40%, var(--teal-bright) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .subhead { font-size: 17px; color: var(--chalk-dim); max-width: 600px; margin: 0 auto; line-height: 1.55; }
+  .sim-count { font-family: 'JetBrains Mono', monospace; color: var(--gold-bright); font-weight: 800; }
+
+  .live-banner {
+    max-width: 920px;
+    margin: 28px auto 0;
+    padding: 0 24px;
+  }
+
+  .live-banner-inner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background: rgba(74,222,128,0.10);
+    border: 1px solid rgba(74,222,128,0.35);
+    border-radius: 100px;
+    padding: 10px 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    color: var(--played);
+  }
+
+  .live-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--played);
+    animation: pulse 1.6s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  .champion-section { max-width: 920px; margin: 36px auto 0; padding: 0 24px; }
+
+  .champion-card {
+    background: linear-gradient(135deg, rgba(255,194,59,0.16), rgba(0,194,168,0.06));
+    border: 2px solid var(--gold);
+    border-radius: 12px;
+    padding: 32px 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    box-shadow: 0 0 50px rgba(255,194,59,0.12);
+  }
+
+  .champion-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; font-weight: 700; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--gold); margin-bottom: 10px;
+  }
+
+  .champion-name {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: clamp(30px, 4.5vw, 46px);
+    color: var(--chalk);
+    display: flex; align-items: center; gap: 14px;
+  }
+
+  .champion-flag { font-size: 0.85em; }
+
+  .champion-pct {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: clamp(42px, 5.5vw, 58px);
+    font-weight: 800; color: var(--gold-bright); text-align: right;
+  }
+
+  .champion-pct span {
+    display: block; font-size: 13px; font-weight: 400; color: var(--chalk-dim);
+    letter-spacing: 0.08em; text-transform: uppercase; margin-top: 4px;
+  }
+
+  .standings-section, .bracket-section, .picker-section {
+    max-width: 920px; margin: 64px auto 0; padding: 0 24px;
+  }
+  .bracket-section { max-width: 1400px; }
+
+  .section-tag {
+    display: inline-block; font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--teal-bright); margin-bottom: 8px;
+  }
+
+  .section-title { font-family: 'Archivo Black', sans-serif; font-size: 26px; margin-bottom: 6px; }
+  .section-desc { font-size: 14px; color: var(--chalk-dim); margin-bottom: 24px; }
+
+  .standings-table {
+    width: 100%; border-collapse: collapse; background: var(--bg-panel);
+    border-radius: 10px; overflow: hidden; border: 1px solid var(--line);
+  }
+
+  .standings-table th {
+    text-align: left; font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--chalk-dim); padding: 14px 14px; border-bottom: 2px solid var(--teal);
+    background: rgba(0,194,168,0.06);
+  }
+
+  .standings-table th:not(:first-child) { text-align: right; }
+
+  .standings-table td { padding: 13px 14px; border-bottom: 1px solid var(--line); font-size: 14px; }
+  .standings-table td:not(:first-child) { text-align: right; font-family: 'JetBrains Mono', monospace; }
+
+  .standings-table tr:hover { background: rgba(0,194,168,0.05); }
+  .standings-table tr.eliminated { opacity: 0.4; }
+  .standings-table tr.eliminated .team-name::after {
+    content: " (out)";
+    font-size: 11px;
+    color: var(--orange);
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .standings-table tr:nth-child(1):not(.eliminated) { background: rgba(255,194,59,0.08); }
+  .standings-table tr:nth-child(2):not(.eliminated) { background: rgba(255,194,59,0.04); }
+  .standings-table tr:nth-child(3):not(.eliminated) { background: rgba(255,194,59,0.02); }
+
+  .rank-cell { display: flex; align-items: center; gap: 10px; }
+  .rank-num { color: var(--chalk-dim); font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 12px; width: 20px; }
+  .rank-num.top3 { color: var(--gold-bright); }
+  .flag { font-size: 17px; }
+  .team-name { font-weight: 600; }
+
+  .win-pct-bar-wrap {
+    position: relative; background: rgba(244,247,245,0.06); height: 5px;
+    border-radius: 3px; margin-top: 6px; overflow: hidden;
+  }
+  .win-pct-bar { position: absolute; height: 100%; background: linear-gradient(90deg, var(--teal), var(--gold)); border-radius: 3px; }
+
+  .bracket-scroll { overflow-x: auto; padding-bottom: 24px; }
+  .bracket { display: flex; gap: 40px; min-width: 1100px; padding: 12px 4px; }
+
+  .round-column { display: flex; flex-direction: column; justify-content: space-around; gap: 16px; min-width: 195px; flex: 1; }
+
+  .round-label {
+    font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal-bright);
+    text-align: center; margin-bottom: 4px; padding-bottom: 8px; border-bottom: 2px solid var(--teal);
+  }
+
+  .matchup { background: var(--bg-panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .matchup.is-played { border-color: var(--played); }
+
+  .played-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--bg-deep);
+    background: var(--played);
+    text-align: center;
+    padding: 3px 0;
+  }
+
+  .team-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; font-size: 13px; gap: 8px; }
+  .team-row:not(:last-child) { border-bottom: 1px solid var(--line); }
+
+  .team-row .tname {
+    font-weight: 600; display: flex; align-items: center; gap: 6px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .team-row .tpct { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--chalk-dim); flex-shrink: 0; display: flex; align-items: center; gap: 6px; }
+
+  .predicted-pct {
+    font-size: 10px;
+    color: var(--chalk-dim);
+    opacity: 0.7;
+    font-weight: 400;
+  }
+
+  .team-row.leader { background: rgba(255,194,59,0.10); }
+  .team-row.leader .tname { color: var(--gold-bright); font-weight: 800; }
+  .team-row.leader .tpct { color: var(--gold-bright); font-weight: 800; }
+
+  .team-row.winner { background: rgba(74,222,128,0.12); }
+  .team-row.winner .tname { color: var(--played); font-weight: 800; }
+  .team-row.winner .tpct { color: var(--played); font-weight: 800; }
+  .team-row.loser { opacity: 0.45; }
+
+  .final-col { justify-content: center; }
+
+  .champion-pick {
+    text-align: center; padding: 24px 18px;
+    background: linear-gradient(135deg, rgba(255,194,59,0.20), rgba(0,194,168,0.08));
+    border: 2px solid var(--gold); border-radius: 10px;
+  }
+
+  .champion-pick .ctrophy { font-size: 30px; margin-bottom: 6px; }
+  .champion-pick .ctitle { font-family: 'Archivo Black', sans-serif; font-size: 21px; color: var(--gold-bright); }
+  .champion-pick .csub { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--chalk-dim); margin-top: 6px; line-height: 1.5; }
+
+  .picker-card { background: var(--bg-panel); border: 1px solid var(--line); border-radius: 10px; padding: 30px; }
+  .picker-row { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+  .picker-team { flex: 1; min-width: 180px; }
+
+  .picker-team label {
+    display: block; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--teal-bright); margin-bottom: 8px;
+  }
+
+  .picker-team select {
+    width: 100%; background: var(--bg-deep); color: var(--chalk); border: 1px solid var(--line);
+    border-radius: 6px; padding: 12px 14px; font-family: 'Archivo', sans-serif; font-size: 15px;
+    font-weight: 600; cursor: pointer; appearance: none;
+  }
+
+  .picker-team select:focus { outline: 2px solid var(--teal); outline-offset: 1px; }
+
+  .vs-divider { font-family: 'Archivo Black', sans-serif; font-size: 20px; color: var(--orange); padding-top: 22px; }
+
+  .picker-result { margin-top: 26px; display: none; }
+  .picker-result.visible { display: block; }
+
+  .result-bars { display: flex; border-radius: 8px; overflow: hidden; height: 54px; margin-bottom: 12px; }
+
+  .result-bar {
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'JetBrains Mono', monospace; font-weight: 800; font-size: 16px;
+    color: var(--bg-deep); transition: width 0.4s ease;
+  }
+
+  .result-bar.team-a { background: linear-gradient(135deg, var(--gold-bright), var(--gold)); }
+  .result-bar.team-b { background: linear-gradient(135deg, #C7D4CD, var(--chalk-dim)); }
+
+  .result-labels { display: flex; justify-content: space-between; font-size: 13px; color: var(--chalk-dim); }
+  .result-labels .winner-tag { color: var(--gold-bright); font-weight: 800; }
+
+  footer {
+    text-align: center; margin-top: 76px; padding: 0 24px;
+    font-size: 13px; color: var(--chalk-dim); font-family: 'JetBrains Mono', monospace;
+  }
+
+  @media (max-width: 640px) {
+    .champion-card { flex-direction: column; align-items: flex-start; }
+    .champion-pct { text-align: left; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="badge-row"><span class="eyebrow">2026 FIFA World Cup</span></div>
+  <h1>Who Lifts the Trophy?</h1>
+  <p class="subhead">
+    A Random Forest model trained on 30,000+ international matches since 1990,
+    run through <span class="sim-count" id="simCountText">10,000</span> Monte&nbsp;Carlo simulations —
+    updated live as real results come in.
+  </p>
+</header>
+
+<div class="live-banner">
+  <div class="live-banner-inner">
+    <span class="live-dot"></span>
+    <span id="liveStatusText">Tracking live results</span>
+  </div>
+</div>
+
+<section class="champion-section">
+  <div class="champion-card">
+    <div>
+      <div class="champion-label">🏆 Most Likely Champion</div>
+      <div class="champion-name"><span class="champion-flag" id="topTeamFlag"></span><span id="topTeamName">—</span></div>
+    </div>
+    <div class="champion-pct" id="topTeamPct">—<span>Title Probability</span></div>
+  </div>
+</section>
+
+<section class="standings-section">
+  <div class="section-tag">Full Field Rankings</div>
+  <div class="section-title">Title Odds</div>
+  <p class="section-desc">Share of original simulations each team won the tournament. Eliminated teams are dimmed.</p>
+  <table class="standings-table">
+    <thead>
+      <tr><th>Team</th><th>R16</th><th>QF</th><th>SF</th><th>Final</th><th>Win It All</th></tr>
+    </thead>
+    <tbody id="standingsBody"></tbody>
+  </table>
+</section>
+
+<section class="bracket-section">
+  <div class="section-tag">The Road to the Final</div>
+  <div class="section-title">Bracket Tracker</div>
+  <p class="section-desc">
+    <span style="color:var(--played); font-weight:700;">● Green border</span> = match already played, showing the real result.
+    Everything else is still the model's prediction.
+  </p>
+  <div class="bracket-scroll">
+    <div class="bracket" id="bracketContainer"></div>
+  </div>
+</section>
+
+<section class="picker-section">
+  <div class="section-tag">Try It Yourself</div>
+  <div class="section-title">Head-to-Head Predictor</div>
+  <p class="section-desc">Pick any two World Cup teams to see the model's predicted win probability.</p>
+  <div class="picker-card">
+    <div class="picker-row">
+      <div class="picker-team"><label for="teamASelect">Team A</label><select id="teamASelect"></select></div>
+      <div class="vs-divider">VS</div>
+      <div class="picker-team"><label for="teamBSelect">Team B</label><select id="teamBSelect"></select></div>
+    </div>
+    <div class="picker-result" id="pickerResult">
+      <div class="result-bars">
+        <div class="result-bar team-a" id="barA"></div>
+        <div class="result-bar team-b" id="barB"></div>
+      </div>
+      <div class="result-labels"><span id="labelA"></span><span id="labelB"></span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Built with Elo ratings, recent form, and head-to-head history &middot; Random Forest classifier &middot; scikit-learn
+  &middot; Real results updated manually as matches finish
+</footer>
+
+<script>
+const FLAGS = {"Algeria":"🇩🇿","Argentina":"🇦🇷","Australia":"🇦🇺","Austria":"🇦🇹","Belgium":"🇧🇪","Bosnia and Herzegovina":"🇧🇦","Brazil":"🇧🇷","Canada":"🇨🇦","Cape Verde":"🇨🇻","Colombia":"🇨🇴","Croatia":"🇭🇷","DR Congo":"🇨🇩","Ecuador":"🇪🇨","Egypt":"🇪🇬","England":"🏴","France":"🇫🇷","Germany":"🇩🇪","Ghana":"🇬🇭","Ivory Coast":"🇨🇮","Japan":"🇯🇵","Mexico":"🇲🇽","Morocco":"🇲🇦","Netherlands":"🇳🇱","Norway":"🇳🇴","Paraguay":"🇵🇾","Portugal":"🇵🇹","Senegal":"🇸🇳","South Africa":"🇿🇦","Spain":"🇪🇸","Sweden":"🇸🇪","Switzerland":"🇨🇭","United States":"🇺🇸"};
+
+function flag(team) { return FLAGS[team] || '🏳️'; }
+
+let DATA = null;
+let MATCHUPS = null;
+let REAL_RESULTS = null;
+let RESULTS_LOOKUP = {}; // keyed by "TeamA|TeamB" and "TeamB|TeamA" -> result object
+let ELIMINATED = new Set();
+
+async function loadData() {
+  const [resStats, resMatchups, resReal] = await Promise.all([
+    fetch('predictions.json'),
+    fetch('matchup_probabilities.json'),
+    fetch('real_results.json').catch(() => null)
+  ]);
+  DATA = await resStats.json();
+  MATCHUPS = await resMatchups.json();
+  REAL_RESULTS = resReal ? await resReal.json() : { results: [] };
+
+  REAL_RESULTS.results.forEach(r => {
+    RESULTS_LOOKUP[`${r.home}|${r.away}`] = r;
+    RESULTS_LOOKUP[`${r.away}|${r.home}`] = r;
+    const loser = r.winner === r.home ? r.away : r.home;
+    ELIMINATED.add(loser);
+  });
+
+  const playedCount = REAL_RESULTS.results.length;
+  document.getElementById('liveStatusText').textContent =
+    playedCount > 0 ? `${playedCount} match${playedCount === 1 ? '' : 'es'} played so far — results locked in below` : 'Tournament not yet started';
+
+  render();
+  setupPicker();
+}
+
+function render() {
+  document.getElementById('simCountText').textContent = DATA.n_simulations.toLocaleString();
+
+  const results = DATA.results;
+  const top = results[0];
+  document.getElementById('topTeamFlag').textContent = flag(top.team);
+  document.getElementById('topTeamName').textContent = top.team;
+  document.getElementById('topTeamPct').innerHTML = `${top.win_title_pct}%<span>Title Probability</span>`;
+
+  const tbody = document.getElementById('standingsBody');
+  tbody.innerHTML = results.map((r, i) => `
+    <tr class="${ELIMINATED.has(r.team) ? 'eliminated' : ''}">
+      <td>
+        <div class="rank-cell">
+          <span class="rank-num ${i < 3 ? 'top3' : ''}">${i + 1}</span>
+          <span class="flag">${flag(r.team)}</span>
+          <span class="team-name">${r.team}</span>
+        </div>
+      </td>
+      <td>${r.reach_r16_pct}%</td>
+      <td>${r.reach_qf_pct}%</td>
+      <td>${r.reach_sf_pct}%</td>
+      <td>${r.reach_final_pct}%</td>
+      <td>
+        ${r.win_title_pct}%
+        <div class="win-pct-bar-wrap"><div class="win-pct-bar" style="width:${Math.min(r.win_title_pct * 3, 100)}%"></div></div>
+      </td>
+    </tr>
+  `).join('');
+
+  renderBracket();
+}
+
+function lookup(team) { return DATA.results.find(r => r.team === team); }
+
+function getExactProb(teamA, teamB) {
+  const keyAB = `${teamA}|${teamB}`;
+  const keyBA = `${teamB}|${teamA}`;
+  if (MATCHUPS.all_pairs[keyAB]) {
+    const p = MATCHUPS.all_pairs[keyAB];
+    return { pctA: p.pct_a, pctB: p.pct_b };
+  }
+  if (MATCHUPS.all_pairs[keyBA]) {
+    const p = MATCHUPS.all_pairs[keyBA];
+    return { pctA: p.pct_b, pctB: p.pct_a };
+  }
+  return { pctA: 50, pctB: 50 };
+}
+
+// Returns the real result object if this exact pairing has been played, else null
+function getRealResult(teamA, teamB) {
+  return RESULTS_LOOKUP[`${teamA}|${teamB}`] || null;
+}
+
+function winnerOf(teamA, teamB) {
+  const real = getRealResult(teamA, teamB);
+  if (real) return real.winner;
+  const { pctA, pctB } = getExactProb(teamA, teamB);
+  return pctA >= pctB ? teamA : teamB;
+}
+
+function matchupHTML(teamA, teamB) {
+  const real = getRealResult(teamA, teamB);
+  const { pctA, pctB } = getExactProb(teamA, teamB);
+
+  if (real) {
+    const aIsWinner = real.winner === teamA;
+    const predictedFavorite = pctA >= pctB ? teamA : teamB;
+    const wasCorrect = predictedFavorite === real.winner;
+    return `
+      <div class="matchup is-played">
+        <div class="played-tag">✓ Final${real.penalties ? ' (Pens)' : ''} &middot; ${wasCorrect ? 'Model called it' : 'Upset!'}</div>
+        <div class="team-row ${aIsWinner ? 'winner' : 'loser'}">
+          <span class="tname">${flag(teamA)} ${teamA}</span>
+          <span class="tpct">${real.home === teamA ? real.home_score : real.away_score}<span class="predicted-pct">(${pctA}% pred.)</span></span>
+        </div>
+        <div class="team-row ${!aIsWinner ? 'winner' : 'loser'}">
+          <span class="tname">${flag(teamB)} ${teamB}</span>
+          <span class="tpct">${real.home === teamB ? real.home_score : real.away_score}<span class="predicted-pct">(${pctB}% pred.)</span></span>
+        </div>
+      </div>`;
+  }
+
+  const aLead = pctA >= pctB;
+  return `
+    <div class="matchup">
+      <div class="team-row ${aLead ? 'leader' : ''}">
+        <span class="tname">${flag(teamA)} ${teamA}</span>
+        <span class="tpct">${pctA}%</span>
+      </div>
+      <div class="team-row ${!aLead ? 'leader' : ''}">
+        <span class="tname">${flag(teamB)} ${teamB}</span>
+        <span class="tpct">${pctB}%</span>
+      </div>
+    </div>`;
+}
+
+function renderBracket() {
+  const matches = MATCHUPS.bracket_matchups;
+
+  let r32Html = matches.map(m => matchupHTML(m.home, m.away)).join('');
+  const r16Teams = matches.map(m => winnerOf(m.home, m.away));
+
+  function buildRound(teams) {
+    const html = [];
+    const winners = [];
+    for (let i = 0; i < teams.length; i += 2) {
+      html.push(matchupHTML(teams[i], teams[i+1]));
+      winners.push(winnerOf(teams[i], teams[i+1]));
+    }
+    return { html: html.join(''), winners };
+  }
+
+  const r16 = buildRound(r16Teams);
+  const qf = buildRound(r16.winners);
+  const sf = buildRound(qf.winners);
+  const finalPair = sf.winners;
+  const championTeam = winnerOf(finalPair[0], finalPair[1]);
+  const championStats = lookup(championTeam);
+
+  const container = document.getElementById('bracketContainer');
+  container.innerHTML = `
+    <div class="round-column"><div class="round-label">Round of 32</div>${r32Html}</div>
+    <div class="round-column"><div class="round-label">Round of 16</div>${r16.html}</div>
+    <div class="round-column"><div class="round-label">Quarterfinals</div>${qf.html}</div>
+    <div class="round-column"><div class="round-label">Semifinals</div>${sf.html}</div>
+    <div class="round-column final-col">
+      <div class="round-label">Champion</div>
+      <div class="champion-pick">
+        <div class="ctrophy">🏆</div>
+        <div class="ctitle">${flag(championTeam)} ${championTeam}</div>
+        <div class="csub">${championStats ? championStats.win_title_pct : '—'}% title probability<br>(full tournament odds)</div>
+      </div>
+    </div>
+  `;
+}
+
+function setupPicker() {
+  const teams = MATCHUPS.teams;
+  const teamASelect = document.getElementById('teamASelect');
+  const teamBSelect = document.getElementById('teamBSelect');
+
+  const optionsHTML = teams.map(t => `<option value="${t}">${flag(t)} ${t}</option>`).join('');
+  teamASelect.innerHTML = optionsHTML;
+  teamBSelect.innerHTML = optionsHTML;
+
+  teamASelect.value = teams[0];
+  teamBSelect.value = teams[1];
+
+  function updateResult() {
+    const teamA = teamASelect.value;
+    const teamB = teamBSelect.value;
+    const resultBox = document.getElementById('pickerResult');
+
+    if (teamA === teamB) { resultBox.classList.remove('visible'); return; }
+
+    const { pctA, pctB } = getExactProb(teamA, teamB);
+
+    document.getElementById('barA').style.width = pctA + '%';
+    document.getElementById('barB').style.width = pctB + '%';
+    document.getElementById('barA').textContent = pctA + '%';
+    document.getElementById('barB').textContent = pctB + '%';
+
+    const winner = pctA >= pctB ? teamA : teamB;
+    document.getElementById('labelA').innerHTML = teamA === winner
+      ? `<span class="winner-tag">${flag(teamA)} ${teamA} ★</span>` : `${flag(teamA)} ${teamA}`;
+    document.getElementById('labelB').innerHTML = teamB === winner
+      ? `<span class="winner-tag">${flag(teamB)} ${teamB} ★</span>` : `${flag(teamB)} ${teamB}`;
+
+    resultBox.classList.add('visible');
+  }
+
+  teamASelect.addEventListener('change', updateResult);
+  teamBSelect.addEventListener('change', updateResult);
+  updateResult();
+}
+
+loadData();
+</script>
+
+</body>
+</html>
